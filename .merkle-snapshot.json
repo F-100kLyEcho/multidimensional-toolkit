@@ -1,0 +1,1822 @@
+{
+  "rootHash": "b1e0ceb9522002b1e6d17b6779b743df2a9b68f8fdaaecf947cf143479819ef9",
+  "timestamp": 1783168039345,
+  "fileCount": 101,
+  "files": [
+    {
+      "path": "env.d.ts",
+      "hash": "119f809e4018ce51c67b04443feb1434e0758ea0ba585c5b1e7b4957415d64f9",
+      "size": 198,
+      "modified": 1780201675123.9192
+    },
+    {
+      "path": "eslint.config.ts",
+      "hash": "fb175c9d21cd825c8d1c0fc0a76ba26f3c0356db60110c73d6ca6adcb37cb1b2",
+      "size": 920,
+      "modified": 1777302862405.9397
+    },
+    {
+      "path": "vite.config.ts",
+      "hash": "1b70194a93b0933ec2ba082d9d5147318db619c6980da45d72c2b53b6dcc39b5",
+      "size": 1648,
+      "modified": 1779579928878.696
+    },
+    {
+      "path": "src\\页面\\首页\\视图.vue",
+      "hash": "ec370a25dae0d7e5b38158f7cc1529a2d91d31f3c11ced5cae26fd14357ee750",
+      "size": 7837,
+      "modified": 1782215461067.5725
+    },
+    {
+      "path": "src\\页面\\首页\\组件\\复制工作空间弹窗.vue",
+      "hash": "ed674d1b1e3058724d55dd882a1bd967996c73f41cc67b420a5bd12aebbec1db",
+      "size": 8410,
+      "modified": 1779891232640.5657
+    },
+    {
+      "path": "src\\页面\\首页\\组件\\工作空间管理弹窗.vue",
+      "hash": "0d2a9e30227c24bf6df0f5bba86b3ba9725ba9356bfe82266f72d3ed6adea8a9",
+      "size": 11193,
+      "modified": 1779890903668.492
+    },
+    {
+      "path": "src\\页面\\首页\\组件\\底部工具栏.vue",
+      "hash": "3bad0c9afda724d17057acc5c07319c91056a59bc9dbf6a9315e935ee1a93a63",
+      "size": 6035,
+      "modified": 1782396377932.2202
+    },
+    {
+      "path": "src\\页面\\获取路径\\视图.vue",
+      "hash": "761bbdc6583d6c5684bd08cb5dac4c683e420b047fe043ccc27c1f46dad004bc",
+      "size": 32737,
+      "modified": 1782999753817.3257
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用全局规则.ts",
+      "hash": "460d180e7c70c1289e3bcd2e6d45568375d8244631d85b78375eaa13d46b7324",
+      "size": 6451,
+      "modified": 1782998250061.9578
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用分栏布局.ts",
+      "hash": "562ea44b270aceb9c8a195bd84e34677b3ce8211f196d9aef4e2eb939ddcb183",
+      "size": 9201,
+      "modified": 1779579927882.8828
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用历史记录.ts",
+      "hash": "4cb41a0f371ec829d13187f6a43cdc025bcd34dc3f7590af6ba09809349c6d51",
+      "size": 2783,
+      "modified": 1779579929424.3071
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用右键菜单.ts",
+      "hash": "8eba21e6bb495198fc91b1f2558e4e34802d1931f815096dcbde4892cb6e5e71",
+      "size": 5820,
+      "modified": 1782999510111.5688
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用合并数据.ts",
+      "hash": "b05c3353c4e437f9b8dd68a7d6625c67eb6fb1a0a95064ca74227ad796409c08",
+      "size": 18375,
+      "modified": 1782828487844.021
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用折叠.ts",
+      "hash": "a651344d6446fb2baf3f50544c9819b3edfc10ccbb40f3fbacb8d19205c051b6",
+      "size": 471,
+      "modified": 1779579927882.8828
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用排除规则.ts",
+      "hash": "762daca5946b0b81d3caa6f5f69303d5cce9874d35e9a1f7b1215bbe5ae77ce9",
+      "size": 22672,
+      "modified": 1782998038240.2207
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用渐进式扫描.ts",
+      "hash": "04c1bbc4532de1bd25ce87c732002adc1f39441bd1df9504f33b454cd6abeda1",
+      "size": 6710,
+      "modified": 1779579929426.3018
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用规则文件.ts",
+      "hash": "0d67eadcebbcbfd4fb0948e14679abd914644a4133133a03a7f76cac23239419",
+      "size": 11506,
+      "modified": 1782998311408.8635
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用选择.ts",
+      "hash": "621f593d4e24865147db4e6d251cc9c25b7fe445157ceafa81a75f7e83146d20",
+      "size": 4805,
+      "modified": 1779579928875.7046
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用页面快捷键.ts",
+      "hash": "4d5a0640d41b48e3bc05728c6ac09f0e4136338c48bc8bfc7fdbfc2556573b32",
+      "size": 1854,
+      "modified": 1781359327154.7783
+    },
+    {
+      "path": "src\\页面\\获取路径\\组合式函数\\使用预览模式.ts",
+      "hash": "6fa884066ad12be2d7b649ad798b80394b05c3d5bc6560d5d0672046753b0aec",
+      "size": 6989,
+      "modified": 1779579928258.3926
+    },
+    {
+      "path": "src\\页面\\获取路径\\组件\\预览\\预览容器.vue",
+      "hash": "62875ad0a3884238ac0cc7cafeef6f378655eaeba5bf6cd876106193a8fa9267",
+      "size": 4712,
+      "modified": 1779579929423.307
+    },
+    {
+      "path": "src\\页面\\获取路径\\组件\\文件列表\\递归节点.vue",
+      "hash": "eb99885d08d867172f37fceee4cf9cb20ce4fc9da2b55a80845c37d88f08051a",
+      "size": 5590,
+      "modified": 1779579928874.7068
+    },
+    {
+      "path": "src\\页面\\获取路径\\组件\\排除项\\排除项面板.vue",
+      "hash": "5d5d8c55e46fb740daa3eb77fefb326756645d8058be0f44e3ec2ecd72074212",
+      "size": 6030,
+      "modified": 1782998492624.2527
+    },
+    {
+      "path": "src\\页面\\获取路径\\组件\\排除项\\栏标题行.vue",
+      "hash": "d808fe44b7039160791722a01f0270eff2ec6bdea27e38bb0fb94c42cbe8348a",
+      "size": 12564,
+      "modified": 1779579929227.0747
+    },
+    {
+      "path": "src\\页面\\获取路径\\组件\\布局\\右键菜单.vue",
+      "hash": "82d69e4dd54e669cdd7d04acb6bc36797f48d4edba1d5ea77e26b2c3437f9280",
+      "size": 7998,
+      "modified": 1782999682714.755
+    },
+    {
+      "path": "src\\页面\\获取路径\\组件\\布局\\获取路径布局.vue",
+      "hash": "8540280a60f0076e33d7ebe82cb9af790d42c317132418be6f64e19c7e778b16",
+      "size": 6324,
+      "modified": 1779579928873.7102
+    },
+    {
+      "path": "src\\页面\\获取路径\\组件\\合并数据\\合并数据弹窗.vue",
+      "hash": "6fc77ecedfa25cbf2528d242482ededcd5b695b8252c8c85364cff1804148d75",
+      "size": 31521,
+      "modified": 1782827893276.9216
+    },
+    {
+      "path": "src\\页面\\获取路径\\组件\\全局规则\\全局规则弹窗.vue",
+      "hash": "98afb1a2203119d68ac7971110bd0ce718948b20be70e3abb81321ac46fb4c31",
+      "size": 12859,
+      "modified": 1782998479957.8845
+    },
+    {
+      "path": "src\\页面\\获取路径\\类型\\electronAPI.d.ts",
+      "hash": "7383e3ba28f158415ea69b66819c62278c6e236677d816d7f4c5f6f63d49c8d6",
+      "size": 20837,
+      "modified": 1782997697252.447
+    },
+    {
+      "path": "src\\页面\\获取路径\\类型\\index.ts",
+      "hash": "1c5d3f2c63cd622c6a8271e4a4e8e875a1099ff7d4048699b3b9e02a612f1f10",
+      "size": 1176,
+      "modified": 1782997678844.298
+    },
+    {
+      "path": "src\\页面\\获取路径\\工具\\测试数据.ts",
+      "hash": "693a2fc999d7fe41e8040049b99f65f49be54cec85dffd14fd9f22a3fc0e9d5c",
+      "size": 509,
+      "modified": 1779579927364.6514
+    },
+    {
+      "path": "src\\页面\\获取路径\\工具\\转换树形.ts",
+      "hash": "7956b9de278156813a39a3c5ec07518a2f434f685f397ef27c4758526f9b53c6",
+      "size": 1678,
+      "modified": 1779579928489.447
+    },
+    {
+      "path": "src\\页面\\启动\\视图.vue",
+      "hash": "ffa1f85abca104186c30c4145d97582d6e484e746e3ca9e49d112e903bcd50ba",
+      "size": 1964,
+      "modified": 1782220916146.1985
+    },
+    {
+      "path": "src\\页面\\启动\\组合式函数\\使用主题.ts",
+      "hash": "44b31adb2e2d6524081f2a6b860894d6f3ad73d96fa61e0cfe425797b3970184",
+      "size": 3178,
+      "modified": 1782396669261.1792
+    },
+    {
+      "path": "src\\页面\\启动\\组合式函数\\使用侧边栏宽度.ts",
+      "hash": "8775ce835bfe6b62336182364ef65a7ff721f6da45a01b6db65c9a6ee1b6ea8c",
+      "size": 4719,
+      "modified": 1782169340599.937
+    },
+    {
+      "path": "src\\页面\\启动\\组合式函数\\使用卡片表单.ts",
+      "hash": "2e19dd9da80f56733d50db8578d1556b7f5a4b9e2a58ff52b3d295844268d904",
+      "size": 27509,
+      "modified": 1781782435201.7998
+    },
+    {
+      "path": "src\\页面\\启动\\组合式函数\\使用菜单图标面板.ts",
+      "hash": "7b07f9fc55fffc6d47b0f6e50ce2b87b248757ee6b8c433e5dfb25dc711e478b",
+      "size": 7841,
+      "modified": 1782021667566.3853
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\树形菜单容器.vue",
+      "hash": "c48c8e4562736f4e57bfcdb95975256b2567b038648b2df06b4a4e6f58f8f5c3",
+      "size": 43474,
+      "modified": 1782306713112.4688
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\按钮组\\按钮组容器.vue",
+      "hash": "f18bedb2fc4d00347a9d313844a23c2f0f137ce6133bfb8c0712297adba73bbd",
+      "size": 7278,
+      "modified": 1779579929739.1643
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\主布局.vue",
+      "hash": "113290f41c62639d40491b18941ed408632b437c338f45c7312db59972e9a4c4",
+      "size": 5798,
+      "modified": 1782396678538.852
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\内容区布局.vue",
+      "hash": "6a72e3912a3f5f879bc6fa7f2888cff79f8f63e0d905a98aadf35ffcb5779694",
+      "size": 5937,
+      "modified": 1782221823869.2078
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\设置面板\\主题设置.vue",
+      "hash": "bcd9b137d1c0ec94af7865e36b58298771b1879bd86a8f9ca811ca2c17f31c3c",
+      "size": 12448,
+      "modified": 1782131355781.8232
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\设置面板\\关于信息.vue",
+      "hash": "338d64218815dd0397cf73fb5e6a09ae4f066af7ed4e82240b5b14be51b8d718",
+      "size": 611,
+      "modified": 1779579927260.138
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\设置面板\\卡片设置.vue",
+      "hash": "a01b3a47f1a58405802b77462463a1bf82232dd05e1d88939da421292d4c5481",
+      "size": 2382,
+      "modified": 1781667790474.0933
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\设置面板\\壁纸库弹窗.vue",
+      "hash": "367a8e0934965ee6c8fa276500f19affb624b274d8b1b440d937754ba99513fc",
+      "size": 46310,
+      "modified": 1782306432139.137
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\设置面板\\裁切弹窗.vue",
+      "hash": "6a55dd935b1dd4843140ef0a99f37b3cf55b5ea93263a91ebe5849f508651e82",
+      "size": 18553,
+      "modified": 1782130453746.931
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\设置面板\\设置面板容器.vue",
+      "hash": "15c39545f0477659ad2ac42f6a5664757017ab2e78b4c1e18f4ad29317a0cbdb",
+      "size": 4844,
+      "modified": 1782133654062.2446
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\侧边栏\\侧边栏导航图标.vue",
+      "hash": "506294ef48d93a4a51604657f1fb342609369aecb2f0f0dd38f8fad53207d36a",
+      "size": 3527,
+      "modified": 1781666793161.397
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\布局\\侧边栏\\侧边栏拖拽条.vue",
+      "hash": "db56e888c2eb55c128515cb1c9e2c177d1f2accd9469fae6a417d56495f378a5",
+      "size": 721,
+      "modified": 1782169551745.4568
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\图标库\\URL下载弹窗.vue",
+      "hash": "253c0d71205def2f70909b7162ed6fa8be83ac33240d59f3aacef5e7da702a17",
+      "size": 8537,
+      "modified": 1782304800069.8052
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\图标库\\图标库管理视图.vue",
+      "hash": "54b09ab78bee7742e7f191e234b6dab1b053264eec656b3b2d574cf0a14d4f98",
+      "size": 48062,
+      "modified": 1782394890685.0974
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\图标库\\图标表单弹窗.vue",
+      "hash": "d0e3823402e541adcc18cd8d84ddac258104e3a473ca3b2cddfef57ebbd86d3f",
+      "size": 9708,
+      "modified": 1782304318790.9092
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\图标库\\图片上传弹窗.vue",
+      "hash": "3d6f59a84299b99b956f3c63bf728695e9e2835a2bc22090a01a6d2e908b6b92",
+      "size": 9014,
+      "modified": 1782304694840.5903
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\卡片\\卡片容器.vue",
+      "hash": "bf125d1967ff7a27bf90790d8084de926048b135ec9f6e7036079295fe70de71",
+      "size": 24757,
+      "modified": 1782222374763.1868
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\卡片\\卡片表单弹窗.vue",
+      "hash": "239af8f72b6c5f9ce124ffd423d46c4038be1651f331caa000ef81cc267ec70c",
+      "size": 41239,
+      "modified": 1782305807865.343
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\卡片\\图标常量.ts",
+      "hash": "62e68181fdad0a96a8dc18eb5e0ffd48a11c5b15d57e35efb5c2a84f6bf5c6cb",
+      "size": 2785,
+      "modified": 1782387281387.296
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\卡片\\选择图标弹窗.vue",
+      "hash": "0665a78fddd413bbe4e949045ce4d23902823845bcc83c0276d4dc6f4b65f24c",
+      "size": 15424,
+      "modified": 1782302630382.765
+    },
+    {
+      "path": "src\\页面\\启动\\组件\\卡片\\选择网页图标弹窗.vue",
+      "hash": "de7d772d2d3c162c7fe76a0128de0846518676cc4cd540d478fe270f4087f545",
+      "size": 14415,
+      "modified": 1782302791243.7427
+    },
+    {
+      "path": "src\\页面\\启动\\类型\\菜单类型.ts",
+      "hash": "e3b1167d6653230bb50dc1cb2e04fff70d2e5eb16e105891195f6c8e968c6787",
+      "size": 911,
+      "modified": 1781074607155.427
+    },
+    {
+      "path": "src\\页面\\启动\\仓库\\主题仓库.ts",
+      "hash": "e7f7780546558b0e790cecbbbbffe7f340a374bbf6c9dd88676596cb224434a0",
+      "size": 18780,
+      "modified": 1782821981643.4468
+    },
+    {
+      "path": "src\\页面\\启动\\仓库\\侧边栏菜单仓库.ts",
+      "hash": "3663698fd44dbbc13cba074f9b69adbaf395e9f8c7cf33772a826ac7a1544d3c",
+      "size": 848,
+      "modified": 1779579927255.1514
+    },
+    {
+      "path": "src\\页面\\启动\\仓库\\卡片仓库.ts",
+      "hash": "47053fcf34ead6381d684adc71fff6e3096024b2fea181cb744e07619ba9633a",
+      "size": 8752,
+      "modified": 1782222283146.1414
+    },
+    {
+      "path": "src\\页面\\启动\\仓库\\图标库仓库.ts",
+      "hash": "1b7a942758b1d9509183bf416b4efc35151b77eae843d512b53a830d90a184c5",
+      "size": 40843,
+      "modified": 1782385710972.114
+    },
+    {
+      "path": "src\\页面\\启动\\仓库\\图标选择历史仓库.ts",
+      "hash": "5cb2e214e9ed20e0cafac6731fe60b79aacbb6379ed7e3df24553b5b101a68c2",
+      "size": 2348,
+      "modified": 1781782291445.4082
+    },
+    {
+      "path": "src\\页面\\启动\\仓库\\菜单仓库.ts",
+      "hash": "6d7c57c022ddd17b7aaccab5477895f81e504fbef9a37a6df8bce282965abe62",
+      "size": 13416,
+      "modified": 1781594884840.921
+    },
+    {
+      "path": "src\\页面\\启动\\仓库\\设置面板仓库.ts",
+      "hash": "dc68ac0ee47944ed7e494b697f86493a35474f281e9180bc14e1b522d0f60e20",
+      "size": 456,
+      "modified": 1779579927255.1514
+    },
+    {
+      "path": "src\\页面\\404\\视图.vue",
+      "hash": "e788f50fe6cbc0731855ae42d768467aad9e12e606b1c5cfa91c01359a495959",
+      "size": 399,
+      "modified": 1779579927254.1548
+    },
+    {
+      "path": "src\\路由\\总路由.ts",
+      "hash": "0cacbc297fa3b326957891d895c225b3610fa0a7b9716fffdee836c346640a89",
+      "size": 1165,
+      "modified": 1779747858381.8818
+    },
+    {
+      "path": "src\\入口文件\\App.vue",
+      "hash": "d394d73dee87f38edf4528001b179e91a1c0dd49ef21bd8cecb5cc6877e27b70",
+      "size": 990,
+      "modified": 1781598934393.5828
+    },
+    {
+      "path": "src\\入口文件\\main.ts",
+      "hash": "254c85bf72d712540e7ec0a7d0700904d314e1311d85a5b917fc160bff329e75",
+      "size": 939,
+      "modified": 1782214955094.1245
+    },
+    {
+      "path": "scripts\\生成FA分类数据.cjs",
+      "hash": "e90a45c2960e3dd230fba844a799dccc0c388e1cd0e272031c349647dacfd424",
+      "size": 8220,
+      "modified": 1781582016605.7542
+    },
+    {
+      "path": "electron\\env.d.ts",
+      "hash": "c52786b0775bacd68073d7abf900f194799cb00e24a99baa4d02253bb9dfc3cf",
+      "size": 50,
+      "modified": 1779579929535.0688
+    },
+    {
+      "path": "electron\\IPC注册器.ts",
+      "hash": "5123bda11375d559c6406a4246b62997a34cc2dedba04ef023dd79dc5ea4b996",
+      "size": 561,
+      "modified": 1779579929730.1887
+    },
+    {
+      "path": "electron\\main.ts",
+      "hash": "afc3d5b0cff6cc8c08f2e33926dc6b7b09f0ee071a5393ecd4210b3279387dfd",
+      "size": 3221,
+      "modified": 1782215482840.2239
+    },
+    {
+      "path": "electron\\preload.ts",
+      "hash": "4d260bb6fda3df27368fe4d457da4e3a0a9f9965d4596517a6765c7e9c5cab75",
+      "size": 21014,
+      "modified": 1782824469398.787
+    },
+    {
+      "path": "electron\\页面处理\\首页\\处理器.ts",
+      "hash": "3eb9b846d21b136f6e913581f4645510dac7a6434b1a2ccf964c4a0d65fb7beb",
+      "size": 5784,
+      "modified": 1779579929735.1748
+    },
+    {
+      "path": "electron\\页面处理\\获取路径\\处理器.ts",
+      "hash": "e798bac7bffebb36419ec488919de6558620407a3b54558e999d597e19d914b7",
+      "size": 21166,
+      "modified": 1782828437043.398
+    },
+    {
+      "path": "electron\\页面处理\\获取路径\\排除规则.ts",
+      "hash": "c1685a2d3aa02ecd9cc93fdfe2622b843b20db716c69e8ef49b5df1cc3246f0a",
+      "size": 10326,
+      "modified": 1782998568961.392
+    },
+    {
+      "path": "electron\\页面处理\\获取路径\\文件合并器.ts",
+      "hash": "2a6370dec399db91cb7b3b4c3057976fd2b6c99187dbb3c7cda6668c4e3236d0",
+      "size": 3242,
+      "modified": 1782826839208.9287
+    },
+    {
+      "path": "electron\\页面处理\\获取路径\\文件扫描器.ts",
+      "hash": "313e008ffa2ad34bd34ec6dfa9fc43c45be31b712e3b02e81ee01bd79e340845",
+      "size": 6494,
+      "modified": 1779579928593.2134
+    },
+    {
+      "path": "electron\\页面处理\\启动\\Emoji分类数据.ts",
+      "hash": "19d99e78c466020f77640493fa1d2cef4ffc1250743a649bf5c61d5d41a8c35e",
+      "size": 14372,
+      "modified": 1782392814083.234
+    },
+    {
+      "path": "electron\\页面处理\\启动\\FA分类数据.ts",
+      "hash": "d131545cc032af83eaa59123e96879df83cfcce43fcf83372446996c36376080",
+      "size": 257401,
+      "modified": 1782387138171.5793
+    },
+    {
+      "path": "electron\\页面处理\\启动\\卡片存储.ts",
+      "hash": "c2d8754ea3d80b4fb2af18678e72ce9dd7cc283a297a8aeebd8d61e1b66e6330",
+      "size": 8287,
+      "modified": 1781354083741.896
+    },
+    {
+      "path": "electron\\页面处理\\启动\\启动数据.ts",
+      "hash": "f50766285af84705529c0e11aa8d30ceb91308b4e5dbb7347f1f1289163b72ba",
+      "size": 1673,
+      "modified": 1781855794370.8843
+    },
+    {
+      "path": "electron\\页面处理\\启动\\图标常量.ts",
+      "hash": "1055edaec2e75a8cc30225905e09ebe31f4b84879018db547972f08030b770b6",
+      "size": 7475,
+      "modified": 1782387267467.3264
+    },
+    {
+      "path": "electron\\页面处理\\启动\\图标库存储.ts",
+      "hash": "6232aea46dc9c848d21ad8b7cafa6d48f0e54b6fce672f91660217436630c661",
+      "size": 17974,
+      "modified": 1782385514092.3132
+    },
+    {
+      "path": "electron\\页面处理\\启动\\图片扫描.ts",
+      "hash": "0116756144e9ded6d48bd893f92938c70c9c0649f13d15a5b23d9f06b102e26e",
+      "size": 7603,
+      "modified": 1779579929537.0642
+    },
+    {
+      "path": "electron\\页面处理\\启动\\图片管理.ts",
+      "hash": "364ae1d9314b961fc5589f58a46f3ca1f124ec711f2311ba6ce25ff2edda8dd5",
+      "size": 19976,
+      "modified": 1779579929734.1775
+    },
+    {
+      "path": "electron\\页面处理\\启动\\处理器.ts",
+      "hash": "268c4bcbb8a96e699629b729e02065034dd759d88a3caa1feb5a02fa8a7a2b20",
+      "size": 23293,
+      "modified": 1782385564726.6768
+    },
+    {
+      "path": "electron\\页面处理\\启动\\背景图片存储.ts",
+      "hash": "7271f8e260847cb0def89c13eb3c01f4c6e4c8c6401492810e1576e04c00e9d4",
+      "size": 17335,
+      "modified": 1782132072486.3032
+    },
+    {
+      "path": "electron\\类型\\index.ts",
+      "hash": "00cda72201af79d09431c097cd7bcb30e5ef998a01f9f6124e8ad37167df7b95",
+      "size": 5439,
+      "modified": 1782998500084.6936
+    },
+    {
+      "path": "electron\\工具\\glob工具.ts",
+      "hash": "0edc33c68b8eb86c166a3adf518ec972f77b8abe3a0847ed562f2f398c44cb4b",
+      "size": 4659,
+      "modified": 1779579929632.3933
+    },
+    {
+      "path": "electron\\工具\\上次路径.ts",
+      "hash": "c6072ec23c8b2faca92474b69f27faabff3d378b480afc1181a7cf65b9e691f1",
+      "size": 981,
+      "modified": 1779579928728.95
+    },
+    {
+      "path": "electron\\工具\\全局规则.ts",
+      "hash": "9772cf07c8d6589cf09c72d2857d62044070bcb44ded5accbec045cf90000ab9",
+      "size": 5674,
+      "modified": 1782824200347.1074
+    },
+    {
+      "path": "electron\\工具\\历史记录.ts",
+      "hash": "6b3ea0576065d9bd7f63e27f5d5522ba15cd3f67ddb92c4d7ae371fd18be1357",
+      "size": 1974,
+      "modified": 1779579928730.5056
+    },
+    {
+      "path": "electron\\工具\\合并规则文件.ts",
+      "hash": "221a813172939058d17748c1118113752cd1af4604dfd45e122494db41d49832",
+      "size": 4045,
+      "modified": 1782825950837.0554
+    },
+    {
+      "path": "electron\\工具\\合并配置.ts",
+      "hash": "02b4237db9b33c9d685d0ba82b55a2f8ff7b743f3e79b50030f7fc1dd9ec9d5d",
+      "size": 1658,
+      "modified": 1782825987117.069
+    },
+    {
+      "path": "electron\\工具\\文件操作.ts",
+      "hash": "cdc2d468f78299d3ee0c6c86210b81c492184354db8e028e3f0a9183f6c0b6cf",
+      "size": 2544,
+      "modified": 1779579928251.4106
+    },
+    {
+      "path": "electron\\工具\\模块路径.ts",
+      "hash": "3d9eea26ea0c027d6cce1d05521d67582a3834fdb664b3e26b73bc7167079b96",
+      "size": 2062,
+      "modified": 1782828397016.4385
+    },
+    {
+      "path": "electron\\工具\\系统信息.ts",
+      "hash": "a85bbe4618508df06b6edd8d0598d09b814f84933e330211e16360bc5af70014",
+      "size": 660,
+      "modified": 1779579928251.4106
+    },
+    {
+      "path": "electron\\工具\\路径配置.ts",
+      "hash": "9e9b5976554eda5161ded10c794d1804b8f6d36767ef7cec3d9253f6763b9004",
+      "size": 13610,
+      "modified": 1782050438967.9717
+    }
+  ],
+  "tree": {
+    "hash": "b1e0ceb9522002b1e6d17b6779b743df2a9b68f8fdaaecf947cf143479819ef9",
+    "left": {
+      "hash": "dae2be4d5e4b8f64382d951ca6941a9cc4b6db8535b8b67d80ad53e563259627",
+      "left": {
+        "hash": "f88c8ed6430219955ff16107dcacc40c51fcb53b0f1760c26201d1972a86bf78",
+        "left": {
+          "hash": "57006a66276de2263e24d22071f6a4557ff4172cbebbffd6863f86009de760ab",
+          "left": {
+            "hash": "33a1665c5f062106405cae94a9e7488c2695300bba00660548381793eab01a55",
+            "left": {
+              "hash": "ade3dfd226619fe58f31593ffdbb0895ac80b3e359af16269178dd3cf7ebef5c",
+              "left": {
+                "hash": "ca17a868d41f487decb15457116b2c07522ae6bbc076d11bd5288f17b420fc04",
+                "left": {
+                  "hash": "221a813172939058d17748c1118113752cd1af4604dfd45e122494db41d49832",
+                  "file": {
+                    "path": "electron\\工具\\合并规则文件.ts",
+                    "hash": "221a813172939058d17748c1118113752cd1af4604dfd45e122494db41d49832",
+                    "size": 4045,
+                    "modified": 1782825950837.0554
+                  }
+                },
+                "right": {
+                  "hash": "02b4237db9b33c9d685d0ba82b55a2f8ff7b743f3e79b50030f7fc1dd9ec9d5d",
+                  "file": {
+                    "path": "electron\\工具\\合并配置.ts",
+                    "hash": "02b4237db9b33c9d685d0ba82b55a2f8ff7b743f3e79b50030f7fc1dd9ec9d5d",
+                    "size": 1658,
+                    "modified": 1782825987117.069
+                  }
+                }
+              },
+              "right": {
+                "hash": "bcc94de42cc1586332717a308e8b4bdaa5dd4064f207822774d6f3208968492d",
+                "left": {
+                  "hash": "6b3ea0576065d9bd7f63e27f5d5522ba15cd3f67ddb92c4d7ae371fd18be1357",
+                  "file": {
+                    "path": "electron\\工具\\历史记录.ts",
+                    "hash": "6b3ea0576065d9bd7f63e27f5d5522ba15cd3f67ddb92c4d7ae371fd18be1357",
+                    "size": 1974,
+                    "modified": 1779579928730.5056
+                  }
+                },
+                "right": {
+                  "hash": "9e9b5976554eda5161ded10c794d1804b8f6d36767ef7cec3d9253f6763b9004",
+                  "file": {
+                    "path": "electron\\工具\\路径配置.ts",
+                    "hash": "9e9b5976554eda5161ded10c794d1804b8f6d36767ef7cec3d9253f6763b9004",
+                    "size": 13610,
+                    "modified": 1782050438967.9717
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "3ffd361a6bbd7e1375a761ea985888bc2a150d92e26fce3df438027b05002d27",
+              "left": {
+                "hash": "d1585cc52c7dd2517936ed1ca0275a381b8b46ca4c79b4600039b243fb6f0204",
+                "left": {
+                  "hash": "3d9eea26ea0c027d6cce1d05521d67582a3834fdb664b3e26b73bc7167079b96",
+                  "file": {
+                    "path": "electron\\工具\\模块路径.ts",
+                    "hash": "3d9eea26ea0c027d6cce1d05521d67582a3834fdb664b3e26b73bc7167079b96",
+                    "size": 2062,
+                    "modified": 1782828397016.4385
+                  }
+                },
+                "right": {
+                  "hash": "9772cf07c8d6589cf09c72d2857d62044070bcb44ded5accbec045cf90000ab9",
+                  "file": {
+                    "path": "electron\\工具\\全局规则.ts",
+                    "hash": "9772cf07c8d6589cf09c72d2857d62044070bcb44ded5accbec045cf90000ab9",
+                    "size": 5674,
+                    "modified": 1782824200347.1074
+                  }
+                }
+              },
+              "right": {
+                "hash": "3640ad165839c9badb8b937baeab4719757e578c5150790760a7a3e7d3f747d4",
+                "left": {
+                  "hash": "c6072ec23c8b2faca92474b69f27faabff3d378b480afc1181a7cf65b9e691f1",
+                  "file": {
+                    "path": "electron\\工具\\上次路径.ts",
+                    "hash": "c6072ec23c8b2faca92474b69f27faabff3d378b480afc1181a7cf65b9e691f1",
+                    "size": 981,
+                    "modified": 1779579928728.95
+                  }
+                },
+                "right": {
+                  "hash": "cdc2d468f78299d3ee0c6c86210b81c492184354db8e028e3f0a9183f6c0b6cf",
+                  "file": {
+                    "path": "electron\\工具\\文件操作.ts",
+                    "hash": "cdc2d468f78299d3ee0c6c86210b81c492184354db8e028e3f0a9183f6c0b6cf",
+                    "size": 2544,
+                    "modified": 1779579928251.4106
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "e6ffb4a3f37ccd126829660ec0d737397913bd25d90499c30489a4411b78eb13",
+            "left": {
+              "hash": "d1056e64881434b69c197408d2d4e31e0062df8f1870d24f5e89a9d8550b1880",
+              "left": {
+                "hash": "b8aa4fa6d2c39829b13ada4395675961111e5abbd2d0dbbdccf49fd24dbc1aea",
+                "left": {
+                  "hash": "a85bbe4618508df06b6edd8d0598d09b814f84933e330211e16360bc5af70014",
+                  "file": {
+                    "path": "electron\\工具\\系统信息.ts",
+                    "hash": "a85bbe4618508df06b6edd8d0598d09b814f84933e330211e16360bc5af70014",
+                    "size": 660,
+                    "modified": 1779579928251.4106
+                  }
+                },
+                "right": {
+                  "hash": "0edc33c68b8eb86c166a3adf518ec972f77b8abe3a0847ed562f2f398c44cb4b",
+                  "file": {
+                    "path": "electron\\工具\\glob工具.ts",
+                    "hash": "0edc33c68b8eb86c166a3adf518ec972f77b8abe3a0847ed562f2f398c44cb4b",
+                    "size": 4659,
+                    "modified": 1779579929632.3933
+                  }
+                }
+              },
+              "right": {
+                "hash": "e364c1fbe3761f284c4a8ff55c79ec3bdca4f374b562bcdc48a2d2b79d52a6a2",
+                "left": {
+                  "hash": "00cda72201af79d09431c097cd7bcb30e5ef998a01f9f6124e8ad37167df7b95",
+                  "file": {
+                    "path": "electron\\类型\\index.ts",
+                    "hash": "00cda72201af79d09431c097cd7bcb30e5ef998a01f9f6124e8ad37167df7b95",
+                    "size": 5439,
+                    "modified": 1782998500084.6936
+                  }
+                },
+                "right": {
+                  "hash": "e798bac7bffebb36419ec488919de6558620407a3b54558e999d597e19d914b7",
+                  "file": {
+                    "path": "electron\\页面处理\\获取路径\\处理器.ts",
+                    "hash": "e798bac7bffebb36419ec488919de6558620407a3b54558e999d597e19d914b7",
+                    "size": 21166,
+                    "modified": 1782828437043.398
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "092f4e4520b6bd5d6d060e578cf85615d0699dd99f246dc30377bd9764ffc647",
+              "left": {
+                "hash": "c64ca30005011fa7cd60a4b655d611a7f3ae4f7c3a994631646486efd38659a1",
+                "left": {
+                  "hash": "c1685a2d3aa02ecd9cc93fdfe2622b843b20db716c69e8ef49b5df1cc3246f0a",
+                  "file": {
+                    "path": "electron\\页面处理\\获取路径\\排除规则.ts",
+                    "hash": "c1685a2d3aa02ecd9cc93fdfe2622b843b20db716c69e8ef49b5df1cc3246f0a",
+                    "size": 10326,
+                    "modified": 1782998568961.392
+                  }
+                },
+                "right": {
+                  "hash": "2a6370dec399db91cb7b3b4c3057976fd2b6c99187dbb3c7cda6668c4e3236d0",
+                  "file": {
+                    "path": "electron\\页面处理\\获取路径\\文件合并器.ts",
+                    "hash": "2a6370dec399db91cb7b3b4c3057976fd2b6c99187dbb3c7cda6668c4e3236d0",
+                    "size": 3242,
+                    "modified": 1782826839208.9287
+                  }
+                }
+              },
+              "right": {
+                "hash": "81ffcda380e6b3223df4fce04a768826444f268de90fa903561915b048532c92",
+                "left": {
+                  "hash": "313e008ffa2ad34bd34ec6dfa9fc43c45be31b712e3b02e81ee01bd79e340845",
+                  "file": {
+                    "path": "electron\\页面处理\\获取路径\\文件扫描器.ts",
+                    "hash": "313e008ffa2ad34bd34ec6dfa9fc43c45be31b712e3b02e81ee01bd79e340845",
+                    "size": 6494,
+                    "modified": 1779579928593.2134
+                  }
+                },
+                "right": {
+                  "hash": "7271f8e260847cb0def89c13eb3c01f4c6e4c8c6401492810e1576e04c00e9d4",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\背景图片存储.ts",
+                    "hash": "7271f8e260847cb0def89c13eb3c01f4c6e4c8c6401492810e1576e04c00e9d4",
+                    "size": 17335,
+                    "modified": 1782132072486.3032
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "hash": "70b2fca8e610ed22c50419f3eef5678405a2a725efd0a72b7624c1c4d2725211",
+          "left": {
+            "hash": "cd5f92dfa27bef4baa5a2d6b2c1dbac7245cd19cf3811312cb799fdda5883b95",
+            "left": {
+              "hash": "0ba8d70edc63a1e0182ef45466881e77d5d43d7729420342ae8d5a66a7f99bf0",
+              "left": {
+                "hash": "1034beff367c2a127a97b63664443cc4862773d8aa1a56ad9a89ed5f0cfb6e77",
+                "left": {
+                  "hash": "268c4bcbb8a96e699629b729e02065034dd759d88a3caa1feb5a02fa8a7a2b20",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\处理器.ts",
+                    "hash": "268c4bcbb8a96e699629b729e02065034dd759d88a3caa1feb5a02fa8a7a2b20",
+                    "size": 23293,
+                    "modified": 1782385564726.6768
+                  }
+                },
+                "right": {
+                  "hash": "c2d8754ea3d80b4fb2af18678e72ce9dd7cc283a297a8aeebd8d61e1b66e6330",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\卡片存储.ts",
+                    "hash": "c2d8754ea3d80b4fb2af18678e72ce9dd7cc283a297a8aeebd8d61e1b66e6330",
+                    "size": 8287,
+                    "modified": 1781354083741.896
+                  }
+                }
+              },
+              "right": {
+                "hash": "8b87d2962273a6dd1d1b25b45ae9c907ee100aa4c373b62b4c412d8387a8b264",
+                "left": {
+                  "hash": "f50766285af84705529c0e11aa8d30ceb91308b4e5dbb7347f1f1289163b72ba",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\启动数据.ts",
+                    "hash": "f50766285af84705529c0e11aa8d30ceb91308b4e5dbb7347f1f1289163b72ba",
+                    "size": 1673,
+                    "modified": 1781855794370.8843
+                  }
+                },
+                "right": {
+                  "hash": "1055edaec2e75a8cc30225905e09ebe31f4b84879018db547972f08030b770b6",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\图标常量.ts",
+                    "hash": "1055edaec2e75a8cc30225905e09ebe31f4b84879018db547972f08030b770b6",
+                    "size": 7475,
+                    "modified": 1782387267467.3264
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "acbd6a2611585a2c1e999f8999ede33d116e8d1e6f5861b017ede45699d1f042",
+              "left": {
+                "hash": "85af00eb72aed383ad143398d153ca84bc461cd1dafb42aa3df6f8915d21eff6",
+                "left": {
+                  "hash": "6232aea46dc9c848d21ad8b7cafa6d48f0e54b6fce672f91660217436630c661",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\图标库存储.ts",
+                    "hash": "6232aea46dc9c848d21ad8b7cafa6d48f0e54b6fce672f91660217436630c661",
+                    "size": 17974,
+                    "modified": 1782385514092.3132
+                  }
+                },
+                "right": {
+                  "hash": "364ae1d9314b961fc5589f58a46f3ca1f124ec711f2311ba6ce25ff2edda8dd5",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\图片管理.ts",
+                    "hash": "364ae1d9314b961fc5589f58a46f3ca1f124ec711f2311ba6ce25ff2edda8dd5",
+                    "size": 19976,
+                    "modified": 1779579929734.1775
+                  }
+                }
+              },
+              "right": {
+                "hash": "947d7339a8a8daa808e73c704f623023f64f47ef7f911ea76568aec860dbc953",
+                "left": {
+                  "hash": "0116756144e9ded6d48bd893f92938c70c9c0649f13d15a5b23d9f06b102e26e",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\图片扫描.ts",
+                    "hash": "0116756144e9ded6d48bd893f92938c70c9c0649f13d15a5b23d9f06b102e26e",
+                    "size": 7603,
+                    "modified": 1779579929537.0642
+                  }
+                },
+                "right": {
+                  "hash": "19d99e78c466020f77640493fa1d2cef4ffc1250743a649bf5c61d5d41a8c35e",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\Emoji分类数据.ts",
+                    "hash": "19d99e78c466020f77640493fa1d2cef4ffc1250743a649bf5c61d5d41a8c35e",
+                    "size": 14372,
+                    "modified": 1782392814083.234
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "85a27a559b35b0e86966192d7658a766e08215772087ea91d2837016348c26a6",
+            "left": {
+              "hash": "b0a77885d4581eb9030d4dbcc92551388366982a1b94830cba070cc6b0583a11",
+              "left": {
+                "hash": "d5cdc5fdcd501b7a7059efd467056d36e1c3c66fc8d95ebea6de9092480ba59f",
+                "left": {
+                  "hash": "d131545cc032af83eaa59123e96879df83cfcce43fcf83372446996c36376080",
+                  "file": {
+                    "path": "electron\\页面处理\\启动\\FA分类数据.ts",
+                    "hash": "d131545cc032af83eaa59123e96879df83cfcce43fcf83372446996c36376080",
+                    "size": 257401,
+                    "modified": 1782387138171.5793
+                  }
+                },
+                "right": {
+                  "hash": "3eb9b846d21b136f6e913581f4645510dac7a6434b1a2ccf964c4a0d65fb7beb",
+                  "file": {
+                    "path": "electron\\页面处理\\首页\\处理器.ts",
+                    "hash": "3eb9b846d21b136f6e913581f4645510dac7a6434b1a2ccf964c4a0d65fb7beb",
+                    "size": 5784,
+                    "modified": 1779579929735.1748
+                  }
+                }
+              },
+              "right": {
+                "hash": "231535cc8385b1fba904e0dc0e06c45d1115e9ad83f7ad82e02ec5d1ac0124c1",
+                "left": {
+                  "hash": "c52786b0775bacd68073d7abf900f194799cb00e24a99baa4d02253bb9dfc3cf",
+                  "file": {
+                    "path": "electron\\env.d.ts",
+                    "hash": "c52786b0775bacd68073d7abf900f194799cb00e24a99baa4d02253bb9dfc3cf",
+                    "size": 50,
+                    "modified": 1779579929535.0688
+                  }
+                },
+                "right": {
+                  "hash": "5123bda11375d559c6406a4246b62997a34cc2dedba04ef023dd79dc5ea4b996",
+                  "file": {
+                    "path": "electron\\IPC注册器.ts",
+                    "hash": "5123bda11375d559c6406a4246b62997a34cc2dedba04ef023dd79dc5ea4b996",
+                    "size": 561,
+                    "modified": 1779579929730.1887
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "f53c11129e8e039b50990415f5d6c2207572600f909e98a2975b0b268692091e",
+              "left": {
+                "hash": "bc8a8a0f36276fb05dc857227d1540afa8aefc1e649255f55116240b6aad5739",
+                "left": {
+                  "hash": "afc3d5b0cff6cc8c08f2e33926dc6b7b09f0ee071a5393ecd4210b3279387dfd",
+                  "file": {
+                    "path": "electron\\main.ts",
+                    "hash": "afc3d5b0cff6cc8c08f2e33926dc6b7b09f0ee071a5393ecd4210b3279387dfd",
+                    "size": 3221,
+                    "modified": 1782215482840.2239
+                  }
+                },
+                "right": {
+                  "hash": "4d260bb6fda3df27368fe4d457da4e3a0a9f9965d4596517a6765c7e9c5cab75",
+                  "file": {
+                    "path": "electron\\preload.ts",
+                    "hash": "4d260bb6fda3df27368fe4d457da4e3a0a9f9965d4596517a6765c7e9c5cab75",
+                    "size": 21014,
+                    "modified": 1782824469398.787
+                  }
+                }
+              },
+              "right": {
+                "hash": "72af49279b7df00353f6059bd3b0bea845737408ee919c24151cc2c2fe70b7d1",
+                "left": {
+                  "hash": "119f809e4018ce51c67b04443feb1434e0758ea0ba585c5b1e7b4957415d64f9",
+                  "file": {
+                    "path": "env.d.ts",
+                    "hash": "119f809e4018ce51c67b04443feb1434e0758ea0ba585c5b1e7b4957415d64f9",
+                    "size": 198,
+                    "modified": 1780201675123.9192
+                  }
+                },
+                "right": {
+                  "hash": "fb175c9d21cd825c8d1c0fc0a76ba26f3c0356db60110c73d6ca6adcb37cb1b2",
+                  "file": {
+                    "path": "eslint.config.ts",
+                    "hash": "fb175c9d21cd825c8d1c0fc0a76ba26f3c0356db60110c73d6ca6adcb37cb1b2",
+                    "size": 920,
+                    "modified": 1777302862405.9397
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "hash": "5a481bfe202890758d919c4e16c0e3b1836a8655daac787ec39988f1cf2e3775",
+        "left": {
+          "hash": "68b6c1111e7c7239cdc1d56744526ec95a8b8089ccf2a43ad472c1a5dba30e46",
+          "left": {
+            "hash": "295659363ad8975e911203627b47e6dbd4aadbf8c0803334860f3bc022a02c54",
+            "left": {
+              "hash": "37f6ab90995844ecc906fdd13be10e3597a57780491fdb77f8e239bbf72889b5",
+              "left": {
+                "hash": "474d84de009c42534e09ac8dd2412dfd21700f9aabb45d5d4f0f90986f0537d1",
+                "left": {
+                  "hash": "e90a45c2960e3dd230fba844a799dccc0c388e1cd0e272031c349647dacfd424",
+                  "file": {
+                    "path": "scripts\\生成FA分类数据.cjs",
+                    "hash": "e90a45c2960e3dd230fba844a799dccc0c388e1cd0e272031c349647dacfd424",
+                    "size": 8220,
+                    "modified": 1781582016605.7542
+                  }
+                },
+                "right": {
+                  "hash": "0cacbc297fa3b326957891d895c225b3610fa0a7b9716fffdee836c346640a89",
+                  "file": {
+                    "path": "src\\路由\\总路由.ts",
+                    "hash": "0cacbc297fa3b326957891d895c225b3610fa0a7b9716fffdee836c346640a89",
+                    "size": 1165,
+                    "modified": 1779747858381.8818
+                  }
+                }
+              },
+              "right": {
+                "hash": "8ceb4dc7db436fb38392c6169b6452807fb586c0989b046165dacf221ebeb7e3",
+                "left": {
+                  "hash": "d394d73dee87f38edf4528001b179e91a1c0dd49ef21bd8cecb5cc6877e27b70",
+                  "file": {
+                    "path": "src\\入口文件\\App.vue",
+                    "hash": "d394d73dee87f38edf4528001b179e91a1c0dd49ef21bd8cecb5cc6877e27b70",
+                    "size": 990,
+                    "modified": 1781598934393.5828
+                  }
+                },
+                "right": {
+                  "hash": "254c85bf72d712540e7ec0a7d0700904d314e1311d85a5b917fc160bff329e75",
+                  "file": {
+                    "path": "src\\入口文件\\main.ts",
+                    "hash": "254c85bf72d712540e7ec0a7d0700904d314e1311d85a5b917fc160bff329e75",
+                    "size": 939,
+                    "modified": 1782214955094.1245
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "ea61f12560f0ef2c6902dcf366af2bf3bd23347fdabde2d74d4def356b3d4c95",
+              "left": {
+                "hash": "379e64b1dbce9dca41a91eedb385c8d2928c6682ad093f96b66f2bb2eee5ed08",
+                "left": {
+                  "hash": "e788f50fe6cbc0731855ae42d768467aad9e12e606b1c5cfa91c01359a495959",
+                  "file": {
+                    "path": "src\\页面\\404\\视图.vue",
+                    "hash": "e788f50fe6cbc0731855ae42d768467aad9e12e606b1c5cfa91c01359a495959",
+                    "size": 399,
+                    "modified": 1779579927254.1548
+                  }
+                },
+                "right": {
+                  "hash": "693a2fc999d7fe41e8040049b99f65f49be54cec85dffd14fd9f22a3fc0e9d5c",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\工具\\测试数据.ts",
+                    "hash": "693a2fc999d7fe41e8040049b99f65f49be54cec85dffd14fd9f22a3fc0e9d5c",
+                    "size": 509,
+                    "modified": 1779579927364.6514
+                  }
+                }
+              },
+              "right": {
+                "hash": "d653407403b98e22e90cc9c5fcf3a76ada1455466607fda46401a949e4c83654",
+                "left": {
+                  "hash": "7956b9de278156813a39a3c5ec07518a2f434f685f397ef27c4758526f9b53c6",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\工具\\转换树形.ts",
+                    "hash": "7956b9de278156813a39a3c5ec07518a2f434f685f397ef27c4758526f9b53c6",
+                    "size": 1678,
+                    "modified": 1779579928489.447
+                  }
+                },
+                "right": {
+                  "hash": "7383e3ba28f158415ea69b66819c62278c6e236677d816d7f4c5f6f63d49c8d6",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\类型\\electronAPI.d.ts",
+                    "hash": "7383e3ba28f158415ea69b66819c62278c6e236677d816d7f4c5f6f63d49c8d6",
+                    "size": 20837,
+                    "modified": 1782997697252.447
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "6ae308d3b2fcb7a59ec6833e09e5892e2ebb364ba885ded11ae6d935a2b2b83b",
+            "left": {
+              "hash": "3227c3773f0505bdff37804c5718d241f6c81bd95df9150a0744ada015bb7fbd",
+              "left": {
+                "hash": "543a74e19baa4b59df0cc05d050d59fafb945dca5c53a0f7cdb06e64e2c69f1d",
+                "left": {
+                  "hash": "1c5d3f2c63cd622c6a8271e4a4e8e875a1099ff7d4048699b3b9e02a612f1f10",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\类型\\index.ts",
+                    "hash": "1c5d3f2c63cd622c6a8271e4a4e8e875a1099ff7d4048699b3b9e02a612f1f10",
+                    "size": 1176,
+                    "modified": 1782997678844.298
+                  }
+                },
+                "right": {
+                  "hash": "761bbdc6583d6c5684bd08cb5dac4c683e420b047fe043ccc27c1f46dad004bc",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\视图.vue",
+                    "hash": "761bbdc6583d6c5684bd08cb5dac4c683e420b047fe043ccc27c1f46dad004bc",
+                    "size": 32737,
+                    "modified": 1782999753817.3257
+                  }
+                }
+              },
+              "right": {
+                "hash": "81cf85e4c0830b21c718242df35234b1f59a9ca38c71b13e76003c62a3663a0e",
+                "left": {
+                  "hash": "562ea44b270aceb9c8a195bd84e34677b3ce8211f196d9aef4e2eb939ddcb183",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用分栏布局.ts",
+                    "hash": "562ea44b270aceb9c8a195bd84e34677b3ce8211f196d9aef4e2eb939ddcb183",
+                    "size": 9201,
+                    "modified": 1779579927882.8828
+                  }
+                },
+                "right": {
+                  "hash": "0d67eadcebbcbfd4fb0948e14679abd914644a4133133a03a7f76cac23239419",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用规则文件.ts",
+                    "hash": "0d67eadcebbcbfd4fb0948e14679abd914644a4133133a03a7f76cac23239419",
+                    "size": 11506,
+                    "modified": 1782998311408.8635
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "a0d758506e51fa3daec46b34bc19d93e6e02315664952280a9709751fc12340d",
+              "left": {
+                "hash": "2a1e903c6c5ddab5c8a05f6139be071114b5fa7dc00176454d62c7954c9a3956",
+                "left": {
+                  "hash": "b05c3353c4e437f9b8dd68a7d6625c67eb6fb1a0a95064ca74227ad796409c08",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用合并数据.ts",
+                    "hash": "b05c3353c4e437f9b8dd68a7d6625c67eb6fb1a0a95064ca74227ad796409c08",
+                    "size": 18375,
+                    "modified": 1782828487844.021
+                  }
+                },
+                "right": {
+                  "hash": "04c1bbc4532de1bd25ce87c732002adc1f39441bd1df9504f33b454cd6abeda1",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用渐进式扫描.ts",
+                    "hash": "04c1bbc4532de1bd25ce87c732002adc1f39441bd1df9504f33b454cd6abeda1",
+                    "size": 6710,
+                    "modified": 1779579929426.3018
+                  }
+                }
+              },
+              "right": {
+                "hash": "488d69c0b6020bcf24a09a389a94a375648169814e23ace278de9bc2dd2422e7",
+                "left": {
+                  "hash": "4cb41a0f371ec829d13187f6a43cdc025bcd34dc3f7590af6ba09809349c6d51",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用历史记录.ts",
+                    "hash": "4cb41a0f371ec829d13187f6a43cdc025bcd34dc3f7590af6ba09809349c6d51",
+                    "size": 2783,
+                    "modified": 1779579929424.3071
+                  }
+                },
+                "right": {
+                  "hash": "762daca5946b0b81d3caa6f5f69303d5cce9874d35e9a1f7b1215bbe5ae77ce9",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用排除规则.ts",
+                    "hash": "762daca5946b0b81d3caa6f5f69303d5cce9874d35e9a1f7b1215bbe5ae77ce9",
+                    "size": 22672,
+                    "modified": 1782998038240.2207
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "hash": "8585520a21b34d7dcbac2f8a74397337b25672fb14177dbfd14cfa1b799bd4b9",
+          "left": {
+            "hash": "1436bdb20c6c5b8d470157ce63a03a14485bdae45a1b35e4c163fbf883889981",
+            "left": {
+              "hash": "66e0af5f5ece30bf0e79ba325ad97dc57c9b451efd0e8e9d96c46dce9d35ba70",
+              "left": {
+                "hash": "4cf520629a414f39db66db2391e3585190e12bbd10a0441510dcb149db787d16",
+                "left": {
+                  "hash": "460d180e7c70c1289e3bcd2e6d45568375d8244631d85b78375eaa13d46b7324",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用全局规则.ts",
+                    "hash": "460d180e7c70c1289e3bcd2e6d45568375d8244631d85b78375eaa13d46b7324",
+                    "size": 6451,
+                    "modified": 1782998250061.9578
+                  }
+                },
+                "right": {
+                  "hash": "621f593d4e24865147db4e6d251cc9c25b7fe445157ceafa81a75f7e83146d20",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用选择.ts",
+                    "hash": "621f593d4e24865147db4e6d251cc9c25b7fe445157ceafa81a75f7e83146d20",
+                    "size": 4805,
+                    "modified": 1779579928875.7046
+                  }
+                }
+              },
+              "right": {
+                "hash": "d02a0c9444f2c4f700fc81ce9f2f09e7d77e850fb12e1651020227d97fb0134e",
+                "left": {
+                  "hash": "4d5a0640d41b48e3bc05728c6ac09f0e4136338c48bc8bfc7fdbfc2556573b32",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用页面快捷键.ts",
+                    "hash": "4d5a0640d41b48e3bc05728c6ac09f0e4136338c48bc8bfc7fdbfc2556573b32",
+                    "size": 1854,
+                    "modified": 1781359327154.7783
+                  }
+                },
+                "right": {
+                  "hash": "8eba21e6bb495198fc91b1f2558e4e34802d1931f815096dcbde4892cb6e5e71",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用右键菜单.ts",
+                    "hash": "8eba21e6bb495198fc91b1f2558e4e34802d1931f815096dcbde4892cb6e5e71",
+                    "size": 5820,
+                    "modified": 1782999510111.5688
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "7632dee5c82064eec826eb389ac644519886d0cdc384b0b9ade7010c25498926",
+              "left": {
+                "hash": "9b8ee64dd6b30e09129ec946f2ea357766a121d8fbfc1cadd62f9abc4605928a",
+                "left": {
+                  "hash": "6fa884066ad12be2d7b649ad798b80394b05c3d5bc6560d5d0672046753b0aec",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用预览模式.ts",
+                    "hash": "6fa884066ad12be2d7b649ad798b80394b05c3d5bc6560d5d0672046753b0aec",
+                    "size": 6989,
+                    "modified": 1779579928258.3926
+                  }
+                },
+                "right": {
+                  "hash": "a651344d6446fb2baf3f50544c9819b3edfc10ccbb40f3fbacb8d19205c051b6",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组合式函数\\使用折叠.ts",
+                    "hash": "a651344d6446fb2baf3f50544c9819b3edfc10ccbb40f3fbacb8d19205c051b6",
+                    "size": 471,
+                    "modified": 1779579927882.8828
+                  }
+                }
+              },
+              "right": {
+                "hash": "8daa93c5ab842c958ef350d9f4a1091f1a5f36817b3ed61d9e8777e89e91d556",
+                "left": {
+                  "hash": "8540280a60f0076e33d7ebe82cb9af790d42c317132418be6f64e19c7e778b16",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组件\\布局\\获取路径布局.vue",
+                    "hash": "8540280a60f0076e33d7ebe82cb9af790d42c317132418be6f64e19c7e778b16",
+                    "size": 6324,
+                    "modified": 1779579928873.7102
+                  }
+                },
+                "right": {
+                  "hash": "82d69e4dd54e669cdd7d04acb6bc36797f48d4edba1d5ea77e26b2c3437f9280",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组件\\布局\\右键菜单.vue",
+                    "hash": "82d69e4dd54e669cdd7d04acb6bc36797f48d4edba1d5ea77e26b2c3437f9280",
+                    "size": 7998,
+                    "modified": 1782999682714.755
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "802c6cd30f6c0f754f0b50a053ab807b9ae63c76e2775a7a2c5d470c60d2d680",
+            "left": {
+              "hash": "7b2ce84457d1742be881e9e28f6498b15aa4b69c9abe867c1284b5b8f888ea99",
+              "left": {
+                "hash": "357adc5a08465dbcf8a3674fa79ea8b4cb1bcb3b47816cf9b9eb0a696181737d",
+                "left": {
+                  "hash": "6fc77ecedfa25cbf2528d242482ededcd5b695b8252c8c85364cff1804148d75",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组件\\合并数据\\合并数据弹窗.vue",
+                    "hash": "6fc77ecedfa25cbf2528d242482ededcd5b695b8252c8c85364cff1804148d75",
+                    "size": 31521,
+                    "modified": 1782827893276.9216
+                  }
+                },
+                "right": {
+                  "hash": "d808fe44b7039160791722a01f0270eff2ec6bdea27e38bb0fb94c42cbe8348a",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组件\\排除项\\栏标题行.vue",
+                    "hash": "d808fe44b7039160791722a01f0270eff2ec6bdea27e38bb0fb94c42cbe8348a",
+                    "size": 12564,
+                    "modified": 1779579929227.0747
+                  }
+                }
+              },
+              "right": {
+                "hash": "cbfa6c1772806dc9bff3686edc0a42a5414e9f4a09c1d4f4076440aea178e746",
+                "left": {
+                  "hash": "5d5d8c55e46fb740daa3eb77fefb326756645d8058be0f44e3ec2ecd72074212",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组件\\排除项\\排除项面板.vue",
+                    "hash": "5d5d8c55e46fb740daa3eb77fefb326756645d8058be0f44e3ec2ecd72074212",
+                    "size": 6030,
+                    "modified": 1782998492624.2527
+                  }
+                },
+                "right": {
+                  "hash": "98afb1a2203119d68ac7971110bd0ce718948b20be70e3abb81321ac46fb4c31",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组件\\全局规则\\全局规则弹窗.vue",
+                    "hash": "98afb1a2203119d68ac7971110bd0ce718948b20be70e3abb81321ac46fb4c31",
+                    "size": 12859,
+                    "modified": 1782998479957.8845
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "2ca8e1522e8412f8fbe0fbea5b274a05ea33318e1c2d9f5294d00026cd126f38",
+              "left": {
+                "hash": "464e474ec652c1f69f5fa346de4a37ba2cc8c14f5d85fe88bb5bfbb0948fd6ec",
+                "left": {
+                  "hash": "eb99885d08d867172f37fceee4cf9cb20ce4fc9da2b55a80845c37d88f08051a",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组件\\文件列表\\递归节点.vue",
+                    "hash": "eb99885d08d867172f37fceee4cf9cb20ce4fc9da2b55a80845c37d88f08051a",
+                    "size": 5590,
+                    "modified": 1779579928874.7068
+                  }
+                },
+                "right": {
+                  "hash": "62875ad0a3884238ac0cc7cafeef6f378655eaeba5bf6cd876106193a8fa9267",
+                  "file": {
+                    "path": "src\\页面\\获取路径\\组件\\预览\\预览容器.vue",
+                    "hash": "62875ad0a3884238ac0cc7cafeef6f378655eaeba5bf6cd876106193a8fa9267",
+                    "size": 4712,
+                    "modified": 1779579929423.307
+                  }
+                }
+              },
+              "right": {
+                "hash": "cdd69113e6e4103091fe69fcab5fa7334f53fdd8765887c511e3bf676ddbb2f1",
+                "left": {
+                  "hash": "6d7c57c022ddd17b7aaccab5477895f81e504fbef9a37a6df8bce282965abe62",
+                  "file": {
+                    "path": "src\\页面\\启动\\仓库\\菜单仓库.ts",
+                    "hash": "6d7c57c022ddd17b7aaccab5477895f81e504fbef9a37a6df8bce282965abe62",
+                    "size": 13416,
+                    "modified": 1781594884840.921
+                  }
+                },
+                "right": {
+                  "hash": "3663698fd44dbbc13cba074f9b69adbaf395e9f8c7cf33772a826ac7a1544d3c",
+                  "file": {
+                    "path": "src\\页面\\启动\\仓库\\侧边栏菜单仓库.ts",
+                    "hash": "3663698fd44dbbc13cba074f9b69adbaf395e9f8c7cf33772a826ac7a1544d3c",
+                    "size": 848,
+                    "modified": 1779579927255.1514
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "right": {
+      "hash": "4249d5767bcce0d31710594a127a8d5f1ad09e317c4f1cfa7c10e2d9d4e1b8fa",
+      "left": {
+        "hash": "643b2be1d61f1fbf6422d4e713906cd02e80fd6bb5f80236b9fde150ed0771e2",
+        "left": {
+          "hash": "638df9340801e99cff5eb57b20a9451d0f4dba44178ec902f34bd35a3bed5ea6",
+          "left": {
+            "hash": "59ab674ac47a17024821d2df90f8afe11c6158a909dda98fbaa41f38b28d6ad1",
+            "left": {
+              "hash": "e031f572e18412552c9e0e4bd2985f7655d328907c9d256e5e0bfd70d1075902",
+              "left": {
+                "hash": "fa146c7e5f1eba2f32b1f9beeab9fadde28e459779d6436e394626b83390c54a",
+                "left": {
+                  "hash": "47053fcf34ead6381d684adc71fff6e3096024b2fea181cb744e07619ba9633a",
+                  "file": {
+                    "path": "src\\页面\\启动\\仓库\\卡片仓库.ts",
+                    "hash": "47053fcf34ead6381d684adc71fff6e3096024b2fea181cb744e07619ba9633a",
+                    "size": 8752,
+                    "modified": 1782222283146.1414
+                  }
+                },
+                "right": {
+                  "hash": "dc68ac0ee47944ed7e494b697f86493a35474f281e9180bc14e1b522d0f60e20",
+                  "file": {
+                    "path": "src\\页面\\启动\\仓库\\设置面板仓库.ts",
+                    "hash": "dc68ac0ee47944ed7e494b697f86493a35474f281e9180bc14e1b522d0f60e20",
+                    "size": 456,
+                    "modified": 1779579927255.1514
+                  }
+                }
+              },
+              "right": {
+                "hash": "58a4088ca1af6bbb9fb69351139618ee748e60807c36fa63ab0d230912c7b590",
+                "left": {
+                  "hash": "1b7a942758b1d9509183bf416b4efc35151b77eae843d512b53a830d90a184c5",
+                  "file": {
+                    "path": "src\\页面\\启动\\仓库\\图标库仓库.ts",
+                    "hash": "1b7a942758b1d9509183bf416b4efc35151b77eae843d512b53a830d90a184c5",
+                    "size": 40843,
+                    "modified": 1782385710972.114
+                  }
+                },
+                "right": {
+                  "hash": "5cb2e214e9ed20e0cafac6731fe60b79aacbb6379ed7e3df24553b5b101a68c2",
+                  "file": {
+                    "path": "src\\页面\\启动\\仓库\\图标选择历史仓库.ts",
+                    "hash": "5cb2e214e9ed20e0cafac6731fe60b79aacbb6379ed7e3df24553b5b101a68c2",
+                    "size": 2348,
+                    "modified": 1781782291445.4082
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "fc523d9d857646562c9a020f6eef502212b00348297a70eb3260b45736980843",
+              "left": {
+                "hash": "1005f6ce8218363a85005b3290a9f432ef90cf8f7751c864fb0de5d491d0c7ea",
+                "left": {
+                  "hash": "e7f7780546558b0e790cecbbbbffe7f340a374bbf6c9dd88676596cb224434a0",
+                  "file": {
+                    "path": "src\\页面\\启动\\仓库\\主题仓库.ts",
+                    "hash": "e7f7780546558b0e790cecbbbbffe7f340a374bbf6c9dd88676596cb224434a0",
+                    "size": 18780,
+                    "modified": 1782821981643.4468
+                  }
+                },
+                "right": {
+                  "hash": "e3b1167d6653230bb50dc1cb2e04fff70d2e5eb16e105891195f6c8e968c6787",
+                  "file": {
+                    "path": "src\\页面\\启动\\类型\\菜单类型.ts",
+                    "hash": "e3b1167d6653230bb50dc1cb2e04fff70d2e5eb16e105891195f6c8e968c6787",
+                    "size": 911,
+                    "modified": 1781074607155.427
+                  }
+                }
+              },
+              "right": {
+                "hash": "5c9a353d6cd4425ad21aa13b1ae4c3498067cece299c2551c83a6b1af5f02be7",
+                "left": {
+                  "hash": "ffa1f85abca104186c30c4145d97582d6e484e746e3ca9e49d112e903bcd50ba",
+                  "file": {
+                    "path": "src\\页面\\启动\\视图.vue",
+                    "hash": "ffa1f85abca104186c30c4145d97582d6e484e746e3ca9e49d112e903bcd50ba",
+                    "size": 1964,
+                    "modified": 1782220916146.1985
+                  }
+                },
+                "right": {
+                  "hash": "7b07f9fc55fffc6d47b0f6e50ce2b87b248757ee6b8c433e5dfb25dc711e478b",
+                  "file": {
+                    "path": "src\\页面\\启动\\组合式函数\\使用菜单图标面板.ts",
+                    "hash": "7b07f9fc55fffc6d47b0f6e50ce2b87b248757ee6b8c433e5dfb25dc711e478b",
+                    "size": 7841,
+                    "modified": 1782021667566.3853
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "f000d9818740c0582e171e7372e095992c32ceddb9539a877d67cb98096461d1",
+            "left": {
+              "hash": "9debd7764f6cdfc94e3ee7bafe7962022ecc87b7f10dcc587a6ccc181fd0cf0e",
+              "left": {
+                "hash": "3166e9e44257035a714879f3f3f003c1e6f27642139b8461683d2a82ef6af717",
+                "left": {
+                  "hash": "8775ce835bfe6b62336182364ef65a7ff721f6da45a01b6db65c9a6ee1b6ea8c",
+                  "file": {
+                    "path": "src\\页面\\启动\\组合式函数\\使用侧边栏宽度.ts",
+                    "hash": "8775ce835bfe6b62336182364ef65a7ff721f6da45a01b6db65c9a6ee1b6ea8c",
+                    "size": 4719,
+                    "modified": 1782169340599.937
+                  }
+                },
+                "right": {
+                  "hash": "2e19dd9da80f56733d50db8578d1556b7f5a4b9e2a58ff52b3d295844268d904",
+                  "file": {
+                    "path": "src\\页面\\启动\\组合式函数\\使用卡片表单.ts",
+                    "hash": "2e19dd9da80f56733d50db8578d1556b7f5a4b9e2a58ff52b3d295844268d904",
+                    "size": 27509,
+                    "modified": 1781782435201.7998
+                  }
+                }
+              },
+              "right": {
+                "hash": "ff2bf5238dbdfa1f4ff8b450bfdf17ad7591962d0e49271a8931350c6a12b0cf",
+                "left": {
+                  "hash": "44b31adb2e2d6524081f2a6b860894d6f3ad73d96fa61e0cfe425797b3970184",
+                  "file": {
+                    "path": "src\\页面\\启动\\组合式函数\\使用主题.ts",
+                    "hash": "44b31adb2e2d6524081f2a6b860894d6f3ad73d96fa61e0cfe425797b3970184",
+                    "size": 3178,
+                    "modified": 1782396669261.1792
+                  }
+                },
+                "right": {
+                  "hash": "f18bedb2fc4d00347a9d313844a23c2f0f137ce6133bfb8c0712297adba73bbd",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\按钮组\\按钮组容器.vue",
+                    "hash": "f18bedb2fc4d00347a9d313844a23c2f0f137ce6133bfb8c0712297adba73bbd",
+                    "size": 7278,
+                    "modified": 1779579929739.1643
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "5ce081829b65bb70a02aea3d8b03657515c19e5db2385f445eaae0c022e3ea25",
+              "left": {
+                "hash": "2d6b3e1d3fdb33cfe97d02af60d34466a078257721af0d5ba671d8d467eb3329",
+                "left": {
+                  "hash": "506294ef48d93a4a51604657f1fb342609369aecb2f0f0dd38f8fad53207d36a",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\侧边栏\\侧边栏导航图标.vue",
+                    "hash": "506294ef48d93a4a51604657f1fb342609369aecb2f0f0dd38f8fad53207d36a",
+                    "size": 3527,
+                    "modified": 1781666793161.397
+                  }
+                },
+                "right": {
+                  "hash": "db56e888c2eb55c128515cb1c9e2c177d1f2accd9469fae6a417d56495f378a5",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\侧边栏\\侧边栏拖拽条.vue",
+                    "hash": "db56e888c2eb55c128515cb1c9e2c177d1f2accd9469fae6a417d56495f378a5",
+                    "size": 721,
+                    "modified": 1782169551745.4568
+                  }
+                }
+              },
+              "right": {
+                "hash": "0def32de26e8f419ded98b2d794954d1b5ea8fcc2696830880f24e1cd2c3dfca",
+                "left": {
+                  "hash": "6a72e3912a3f5f879bc6fa7f2888cff79f8f63e0d905a98aadf35ffcb5779694",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\内容区布局.vue",
+                    "hash": "6a72e3912a3f5f879bc6fa7f2888cff79f8f63e0d905a98aadf35ffcb5779694",
+                    "size": 5937,
+                    "modified": 1782221823869.2078
+                  }
+                },
+                "right": {
+                  "hash": "367a8e0934965ee6c8fa276500f19affb624b274d8b1b440d937754ba99513fc",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\设置面板\\壁纸库弹窗.vue",
+                    "hash": "367a8e0934965ee6c8fa276500f19affb624b274d8b1b440d937754ba99513fc",
+                    "size": 46310,
+                    "modified": 1782306432139.137
+                  }
+                }
+              }
+            }
+          }
+        },
+        "right": {
+          "hash": "50fc4301dbd68f134b088b733a7eb1fc1fa66ab19b0bd0ee3c509339ba6b5340",
+          "left": {
+            "hash": "28470bf04acddffbe67545e4c0b4e7fc73d58b5cf7ed1d20634a3bb5064112d3",
+            "left": {
+              "hash": "fa9013b0d0e252c283244019366c86fe17dcf5b5d72c3014a6138435beaac95e",
+              "left": {
+                "hash": "76e8b70130694a9ee05673e0dd101432a741c89275b5d2b143bc009c17bc66cd",
+                "left": {
+                  "hash": "6a55dd935b1dd4843140ef0a99f37b3cf55b5ea93263a91ebe5849f508651e82",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\设置面板\\裁切弹窗.vue",
+                    "hash": "6a55dd935b1dd4843140ef0a99f37b3cf55b5ea93263a91ebe5849f508651e82",
+                    "size": 18553,
+                    "modified": 1782130453746.931
+                  }
+                },
+                "right": {
+                  "hash": "338d64218815dd0397cf73fb5e6a09ae4f066af7ed4e82240b5b14be51b8d718",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\设置面板\\关于信息.vue",
+                    "hash": "338d64218815dd0397cf73fb5e6a09ae4f066af7ed4e82240b5b14be51b8d718",
+                    "size": 611,
+                    "modified": 1779579927260.138
+                  }
+                }
+              },
+              "right": {
+                "hash": "ce872e3a0478866ece09f20616cbd9cd05d0af27ae78bba78f80dbabd34cbc0a",
+                "left": {
+                  "hash": "a01b3a47f1a58405802b77462463a1bf82232dd05e1d88939da421292d4c5481",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\设置面板\\卡片设置.vue",
+                    "hash": "a01b3a47f1a58405802b77462463a1bf82232dd05e1d88939da421292d4c5481",
+                    "size": 2382,
+                    "modified": 1781667790474.0933
+                  }
+                },
+                "right": {
+                  "hash": "15c39545f0477659ad2ac42f6a5664757017ab2e78b4c1e18f4ad29317a0cbdb",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\设置面板\\设置面板容器.vue",
+                    "hash": "15c39545f0477659ad2ac42f6a5664757017ab2e78b4c1e18f4ad29317a0cbdb",
+                    "size": 4844,
+                    "modified": 1782133654062.2446
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "ef23a4378cd09c9ff9b6daf360d97be43be305d250a05c8821e9e55a2909cf64",
+              "left": {
+                "hash": "5b16a6b848d4a3efb656403548296ed1c5c48ac4d5ce7ae772da08f4968e3457",
+                "left": {
+                  "hash": "bcd9b137d1c0ec94af7865e36b58298771b1879bd86a8f9ca811ca2c17f31c3c",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\设置面板\\主题设置.vue",
+                    "hash": "bcd9b137d1c0ec94af7865e36b58298771b1879bd86a8f9ca811ca2c17f31c3c",
+                    "size": 12448,
+                    "modified": 1782131355781.8232
+                  }
+                },
+                "right": {
+                  "hash": "113290f41c62639d40491b18941ed408632b437c338f45c7312db59972e9a4c4",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\布局\\主布局.vue",
+                    "hash": "113290f41c62639d40491b18941ed408632b437c338f45c7312db59972e9a4c4",
+                    "size": 5798,
+                    "modified": 1782396678538.852
+                  }
+                }
+              },
+              "right": {
+                "hash": "b74ae23910f7026273eae5d6b14d385f3303b39004ea77c95a65564aa59183e2",
+                "left": {
+                  "hash": "239af8f72b6c5f9ce124ffd423d46c4038be1651f331caa000ef81cc267ec70c",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\卡片\\卡片表单弹窗.vue",
+                    "hash": "239af8f72b6c5f9ce124ffd423d46c4038be1651f331caa000ef81cc267ec70c",
+                    "size": 41239,
+                    "modified": 1782305807865.343
+                  }
+                },
+                "right": {
+                  "hash": "bf125d1967ff7a27bf90790d8084de926048b135ec9f6e7036079295fe70de71",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\卡片\\卡片容器.vue",
+                    "hash": "bf125d1967ff7a27bf90790d8084de926048b135ec9f6e7036079295fe70de71",
+                    "size": 24757,
+                    "modified": 1782222374763.1868
+                  }
+                }
+              }
+            }
+          },
+          "right": {
+            "hash": "480165a71c6822eded1640875906a79326d49b9009bcc6651d098853fef5e693",
+            "left": {
+              "hash": "5f7f63d156431aa5c2f7a335d618799ceff9d3afe07d086eeaebba39b2d2a784",
+              "left": {
+                "hash": "b134d154e66bed3a3e446776f00dc6c7196fab21d07b3b70b43c87ae62cd69f8",
+                "left": {
+                  "hash": "62e68181fdad0a96a8dc18eb5e0ffd48a11c5b15d57e35efb5c2a84f6bf5c6cb",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\卡片\\图标常量.ts",
+                    "hash": "62e68181fdad0a96a8dc18eb5e0ffd48a11c5b15d57e35efb5c2a84f6bf5c6cb",
+                    "size": 2785,
+                    "modified": 1782387281387.296
+                  }
+                },
+                "right": {
+                  "hash": "0665a78fddd413bbe4e949045ce4d23902823845bcc83c0276d4dc6f4b65f24c",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\卡片\\选择图标弹窗.vue",
+                    "hash": "0665a78fddd413bbe4e949045ce4d23902823845bcc83c0276d4dc6f4b65f24c",
+                    "size": 15424,
+                    "modified": 1782302630382.765
+                  }
+                }
+              },
+              "right": {
+                "hash": "ad64c9fece811660373f2a3fb1131ab194cf4895606ac514adff24d08d971c7c",
+                "left": {
+                  "hash": "de7d772d2d3c162c7fe76a0128de0846518676cc4cd540d478fe270f4087f545",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\卡片\\选择网页图标弹窗.vue",
+                    "hash": "de7d772d2d3c162c7fe76a0128de0846518676cc4cd540d478fe270f4087f545",
+                    "size": 14415,
+                    "modified": 1782302791243.7427
+                  }
+                },
+                "right": {
+                  "hash": "c48c8e4562736f4e57bfcdb95975256b2567b038648b2df06b4a4e6f58f8f5c3",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\树形菜单容器.vue",
+                    "hash": "c48c8e4562736f4e57bfcdb95975256b2567b038648b2df06b4a4e6f58f8f5c3",
+                    "size": 43474,
+                    "modified": 1782306713112.4688
+                  }
+                }
+              }
+            },
+            "right": {
+              "hash": "d7860b7e4383a155ea0ce81fb14eb57f3cf6b3d7b50f8ef90294cdc5d4ca06d4",
+              "left": {
+                "hash": "e30eec1eb7916f9ccde3bd3b1d9cdcd0720868d1ba30a8901ed7d53a2b6e568a",
+                "left": {
+                  "hash": "d0e3823402e541adcc18cd8d84ddac258104e3a473ca3b2cddfef57ebbd86d3f",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\图标库\\图标表单弹窗.vue",
+                    "hash": "d0e3823402e541adcc18cd8d84ddac258104e3a473ca3b2cddfef57ebbd86d3f",
+                    "size": 9708,
+                    "modified": 1782304318790.9092
+                  }
+                },
+                "right": {
+                  "hash": "54b09ab78bee7742e7f191e234b6dab1b053264eec656b3b2d574cf0a14d4f98",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\图标库\\图标库管理视图.vue",
+                    "hash": "54b09ab78bee7742e7f191e234b6dab1b053264eec656b3b2d574cf0a14d4f98",
+                    "size": 48062,
+                    "modified": 1782394890685.0974
+                  }
+                }
+              },
+              "right": {
+                "hash": "9462473068d90544d0d4584be74299553a1e7b6a853285e3bec13ccebf3adab2",
+                "left": {
+                  "hash": "3d6f59a84299b99b956f3c63bf728695e9e2835a2bc22090a01a6d2e908b6b92",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\图标库\\图片上传弹窗.vue",
+                    "hash": "3d6f59a84299b99b956f3c63bf728695e9e2835a2bc22090a01a6d2e908b6b92",
+                    "size": 9014,
+                    "modified": 1782304694840.5903
+                  }
+                },
+                "right": {
+                  "hash": "253c0d71205def2f70909b7162ed6fa8be83ac33240d59f3aacef5e7da702a17",
+                  "file": {
+                    "path": "src\\页面\\启动\\组件\\图标库\\URL下载弹窗.vue",
+                    "hash": "253c0d71205def2f70909b7162ed6fa8be83ac33240d59f3aacef5e7da702a17",
+                    "size": 8537,
+                    "modified": 1782304800069.8052
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "right": {
+        "hash": "797b050067c92f5ed3d3c4b4de5f489b28fc7be1ce5ee771b3b3bcf8679da055",
+        "left": {
+          "hash": "27e2d0e30bb032f7d7aab29d61b2d430f0ac2cb420069596a2ad3ac81eff0efe",
+          "left": {
+            "hash": "3c1860ff23220b040aa48827346fb5dfd63b68d5d1346fdf55bfae80f3a1180e",
+            "left": {
+              "hash": "ec370a25dae0d7e5b38158f7cc1529a2d91d31f3c11ced5cae26fd14357ee750",
+              "file": {
+                "path": "src\\页面\\首页\\视图.vue",
+                "hash": "ec370a25dae0d7e5b38158f7cc1529a2d91d31f3c11ced5cae26fd14357ee750",
+                "size": 7837,
+                "modified": 1782215461067.5725
+              }
+            },
+            "right": {
+              "hash": "3bad0c9afda724d17057acc5c07319c91056a59bc9dbf6a9315e935ee1a93a63",
+              "file": {
+                "path": "src\\页面\\首页\\组件\\底部工具栏.vue",
+                "hash": "3bad0c9afda724d17057acc5c07319c91056a59bc9dbf6a9315e935ee1a93a63",
+                "size": 6035,
+                "modified": 1782396377932.2202
+              }
+            }
+          },
+          "right": {
+            "hash": "f20aeaccbd5b7c953a26d47762c99c2a149d33362b9c58b7b793481abcb165ad",
+            "left": {
+              "hash": "ed674d1b1e3058724d55dd882a1bd967996c73f41cc67b420a5bd12aebbec1db",
+              "file": {
+                "path": "src\\页面\\首页\\组件\\复制工作空间弹窗.vue",
+                "hash": "ed674d1b1e3058724d55dd882a1bd967996c73f41cc67b420a5bd12aebbec1db",
+                "size": 8410,
+                "modified": 1779891232640.5657
+              }
+            },
+            "right": {
+              "hash": "0d2a9e30227c24bf6df0f5bba86b3ba9725ba9356bfe82266f72d3ed6adea8a9",
+              "file": {
+                "path": "src\\页面\\首页\\组件\\工作空间管理弹窗.vue",
+                "hash": "0d2a9e30227c24bf6df0f5bba86b3ba9725ba9356bfe82266f72d3ed6adea8a9",
+                "size": 11193,
+                "modified": 1779890903668.492
+              }
+            }
+          }
+        },
+        "right": {
+          "hash": "1b70194a93b0933ec2ba082d9d5147318db619c6980da45d72c2b53b6dcc39b5",
+          "file": {
+            "path": "vite.config.ts",
+            "hash": "1b70194a93b0933ec2ba082d9d5147318db619c6980da45d72c2b53b6dcc39b5",
+            "size": 1648,
+            "modified": 1779579928878.696
+          }
+        }
+      }
+    }
+  }
+}

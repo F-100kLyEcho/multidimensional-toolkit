@@ -1,0 +1,88 @@
+{
+  "name": "duowei",
+  "version": "0.0.3",
+  "private": true,
+  "main": "dist-electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "dev:electron": "vite --mode electron",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "build:electron": "vite build --mode electron",
+    "build:dir": "vite build --mode electron && electron-builder --win --x64 --dir -c.directories.output=release/dir",
+    "build:installer": "vite build --mode electron && electron-builder --win --x64 -c.win.target=nsis -c.directories.output=release/installer && node -e \"require('fs').rmSync('release/installer/win-unpacked', { recursive: true, force: true })\"",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "lint": "run-s lint:*",
+    "lint:oxlint": "oxlint . --fix",
+    "lint:eslint": "eslint . --fix --cache",
+    "format": "prettier --write --experimental-cli src/"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "6.7.2",
+    "@types/sortablejs": "^1.15.9",
+    "pinia": "^3.0.4",
+    "sortablejs": "^1.15.7",
+    "vue": "^3.5.32",
+    "vue-router": "^5.0.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node24": "^24.0.4",
+    "@types/node": "^24.12.2",
+    "@vitejs/plugin-vue": "^6.0.6",
+    "@vue/eslint-config-typescript": "^14.7.0",
+    "@vue/tsconfig": "^0.9.1",
+    "electron": "^41.5.0",
+    "electron-builder": "^26.8.1",
+    "eslint": "^10.2.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-oxlint": "~1.60.0",
+    "eslint-plugin-vue": "~10.8.0",
+    "npm-run-all2": "^8.0.4",
+    "oxlint": "~1.60.0",
+    "prettier": "3.8.3",
+    "typescript": "~6.0.0",
+    "vite": "^6.4.2",
+    "vite-plugin-electron": "^0.29.1",
+    "vite-plugin-electron-renderer": "^0.14.7",
+    "vite-plugin-vue-devtools": "^8.1.1",
+    "vue-tsc": "^3.2.6"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "electron",
+      "esbuild"
+    ],
+    "ignoredBuiltDependencies": [
+      "extract-file-icon"
+    ]
+  },
+  "build": {
+    "appId": "com.yourcompany.multitoolbox",
+    "productName": "多维工具箱",
+    "files": [
+      "dist-electron/**/*",
+      "dist/**/*",
+      "package.json"
+    ],
+    "win": {
+      "icon": "public/duowei256.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "多维工具箱",
+      "unicode": true,
+      "installerIcon": "public/duowei256.ico",
+      "uninstallerIcon": "public/duowei256.ico",
+      "installerHeaderIcon": "public/duowei256.ico",
+      "include": "installer.nsh"
+    },
+    "asar": true
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  }
+}

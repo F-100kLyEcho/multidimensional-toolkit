@@ -1,0 +1,118 @@
+@import './变量.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+/* body 只负责基础布局和背景，不设置字体 */
+body {
+  min-height: 100vh;
+  background: #000; /* 旧项目背景图由各页面自己控制 */
+  overflow: hidden; /* 防止侧边栏拖拽时抖动 */
+}
+
+/* 应用容器设置字体，但排除图标区域 */
+#app,
+.主布局,
+.内容区 {
+  font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  font-size: 15px;
+  color: var(--全站通用文字颜色);
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+}
+
+/* 设置面板独立字体（不受全局字体影响） */
+.设置面板,
+.设置面板主体 {
+  font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+/* 侧边栏字体（图标区域会单独处理） */
+.侧边栏 {
+  font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+/* 图标容器强制使用 FontAwesome 字体 */
+.图标项__图标,
+.图标项__图标 i,
+[class^='fa-'],
+[class*=' fa-'],
+.fas,
+.far,
+.fab,
+.fa-solid,
+.fa-regular,
+.fa-brands {
+  font-family: 'Font Awesome 6 Free', 'Font Awesome 6 Pro', 'Font Awesome 5 Free', 'FontAwesome' !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  line-height: 1 !important;
+  text-rendering: auto !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+/* 确保伪元素也有正确的字体 */
+.fas::before,
+.far::before,
+.fab::before,
+.fa-solid::before,
+.fa-regular::before,
+.fa-brands::before {
+  font-family: inherit !important;
+  font-weight: inherit !important;
+}
+
+/* 自定义滚动条（旧项目风格） 分别控制垂直/水平滚动条 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(var(--背景色值), var(--背景色值), var(--背景色值), 0.1);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--滚动条颜色);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--滚动条悬停颜色);
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--滚动条激活颜色);
+}
+
+/* 其他全局文本元素 */
+p,
+span,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+textarea,
+select {
+  font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+}
+
+/* 但图标相关的元素恢复字体 */
+i,
+.图标项,
+[class^='fa-'] * {
+  font-family: inherit;
+}
