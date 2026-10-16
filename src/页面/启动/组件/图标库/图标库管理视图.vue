@@ -306,6 +306,28 @@ function 处理F2按键(e: KeyboardEvent) {
   聚焦重命名()
 }
 
+/** Ctrl+滚轮缩放卡片大小 / Shift+滚轮调整卡片圆角（图标库页，范围：分组列表容器） */
+function 处理滚轮缩放(event: WheelEvent) {
+  if (event.ctrlKey) {
+    event.preventDefault()
+    const 步长 = 2
+    const 最小尺寸 = 50
+    const 最大尺寸 = 200
+    const 当前 = 主题仓库.卡片尺寸
+    const 下一个 = event.deltaY < 0 ? 当前 + 步长 : 当前 - 步长
+    主题仓库.卡片尺寸 = Math.max(最小尺寸, Math.min(最大尺寸, 下一个))
+    return
+  }
+  if (event.shiftKey) {
+    event.preventDefault()
+    const 步长 = 4
+    const 当前 = 主题仓库.卡片圆角
+    const 最大 = 主题仓库.卡片圆角最大值
+    const 下一个 = event.deltaY < 0 ? 当前 + 步长 : 当前 - 步长
+    主题仓库.卡片圆角 = Math.max(0, Math.min(最大, 下一个))
+  }
+}
+
 onMounted(async () => {
   侧边栏菜单.清除菜单()
   document.addEventListener('keydown', 处理Esc)
@@ -1377,7 +1399,7 @@ function 处理B键按下(e: KeyboardEvent) {
             </button>
           </div>
 
-          <div ref="分组列表容器" class="分组列表" :class="{ '分组列表--窄导航': !显示分组名称 }" @contextmenu="空白处右键" @mousedown="分组列表mousedown">
+          <div ref="分组列表容器" class="分组列表" :class="{ '分组列表--窄导航': !显示分组名称 }" @contextmenu="空白处右键" @mousedown="分组列表mousedown" @wheel="处理滚轮缩放">
             <div v-for="(分组, 序号) in 仓库.当前分组列表" :key="分组.名称" class="分组区块" :数据-分组名="分组.名称">
               <!-- 分组标题 -->
               <div class="分组标题" :class="{ '分组标题--激活': 激活分组名 === 分组.名称, '分组标题--选中': 批量模式 && 批量操作级别 === '分组' && 选中分组集合.has(分组.名称) }" @click="点击分组标题(分组.名称)" @contextmenu.prevent.stop="仓库.打开右键菜单($event, '分组', 分组.名称)">

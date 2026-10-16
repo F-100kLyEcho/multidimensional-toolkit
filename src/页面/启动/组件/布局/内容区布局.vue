@@ -9,11 +9,13 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { 使用菜单仓库 } from '@/页面/启动/仓库/菜单仓库'
 import { 使用卡片仓库 } from '@/页面/启动/仓库/卡片仓库'
+import { 使用主题仓库 } from '@/页面/启动/仓库/主题仓库'
 import BtnGroup from '@/页面/启动/组件/按钮组/按钮组容器.vue'
 import CardContainer from '@/页面/启动/组件/卡片/卡片容器.vue'
 
 const 菜单仓库 = 使用菜单仓库()
 const 卡片仓库 = 使用卡片仓库()
+const 主题仓库 = 使用主题仓库()
 const 上区Ref = ref<HTMLElement | null>(null)
 
 const 粘贴菜单 = ref({ 可见: false, x: 0, y: 0 })
@@ -41,8 +43,33 @@ function 执行粘贴() {
 /** 防抖切换，防止连续触发 */
 let 切换锁 = false
 
-/** 处理滚轮事件：到达边界时切换二级菜单 */
+/** 处理滚轮事件：Ctrl+滚轮缩放卡片大小 / Shift+滚轮调整卡片圆角；否则到达边界时切换二级菜单 */
 function 处理滚轮(event: WheelEvent) {
+  // Ctrl+滚轮：缩放卡片大小（上滚放大/下滚缩小，步长 2，范围 50–200；紧凑模式下不启用）
+  if (event.ctrlKey) {
+    if (菜单仓库.是否紧凑) return
+    event.preventDefault()
+    const 步长 = 2
+    const 最小尺寸 = 50
+    const 最大尺寸 = 200
+    const 当前 = 主题仓库.卡片尺寸
+    const 下一个 = event.deltaY < 0 ? 当前 + 步长 : 当前 - 步长
+    主题仓库.卡片尺寸 = Math.max(最小尺寸, Math.min(最大尺寸, 下一个))
+    return
+  }
+
+  // Shift+滚轮：调整卡片圆角（上滚增大/下滚减小，步长 1，范围 0–卡片圆角最大值；紧凑模式下不启用）
+  if (event.shiftKey) {
+    if (菜单仓库.是否紧凑) return
+    event.preventDefault()
+    const 步长 = 4
+    const 当前 = 主题仓库.卡片圆角
+    const 最大 = 主题仓库.卡片圆角最大值
+    const 下一个 = event.deltaY < 0 ? 当前 + 步长 : 当前 - 步长
+    主题仓库.卡片圆角 = Math.max(0, Math.min(最大, 下一个))
+    return
+  }
+
   const 上区 = 上区Ref.value
   if (!上区) return
 
