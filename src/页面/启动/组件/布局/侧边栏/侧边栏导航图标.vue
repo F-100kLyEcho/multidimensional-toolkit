@@ -139,7 +139,7 @@ function 关闭快捷键提示() {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 52px;
 }
 
 .底部图标组 {

@@ -17,8 +17,22 @@ const isDev = process.env.VITE_DEV_SERVER_URL
 /** 存储所有已打开的独立窗口，防止被 GC 回收 */
 const 独立窗口列表: BrowserWindow[] = []
 
+/**
+ * 无边框标题栏配置：隐藏原生标题栏与标题文字，保留右上角窗口按钮（透明、透出壁纸）。
+ * height 必须与前端顶部拖拽条高度一致（见 主布局.vue 的 32px）。
+ */
+const 无边框标题栏配置 = {
+  titleBarStyle: 'hidden' as const,
+  titleBarOverlay: {
+    color: '#00000000',
+    symbolColor: '#e0e0e0',
+    height: 32,
+  },
+}
+
 function createWindow() {
   const mainWindow = new BrowserWindow({
+    ...无边框标题栏配置,
     width: 1200,
     height: 800,
     maximizable: true,
@@ -61,6 +75,7 @@ ipcMain.on('toggle-devtools', (_event) => {
  */
 function 创建独立窗口(路由路径: string) {
   const 子窗口 = new BrowserWindow({
+    ...无边框标题栏配置,
     width: 1000,
     height: 700,
     maximizable: true,

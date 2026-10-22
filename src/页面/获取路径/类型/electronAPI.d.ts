@@ -539,6 +539,9 @@ interface ElectronAPI {
   /** 保存图标库颜色配置 */
   图标库保存颜色配置: (配置: { 类别背景颜色: Record<string, string>; 类别透明背景: Record<string, boolean>; 颜色历史: string[] }) => Promise<{ 成功: boolean; 错误信息?: string }>
 
+  /** 运行时设置无边框窗口标题栏叠层（系统按钮符号色/背景色） */
+  窗口设置标题栏叠层: (参数: { symbolColor?: string; color?: string }) => Promise<{ 成功: boolean }>
+
   /** 切换当前窗口 DevTools */
   toggleDevtools: () => void
 }

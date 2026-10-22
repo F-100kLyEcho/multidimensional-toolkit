@@ -10,6 +10,7 @@
  * - 布局状态持久化到 localStorage
  */
 import { ref, computed, onMounted, onUnmounted } from 'vue'
+import { 应用标题栏符号色, 由深色模式取符号色 } from '@/组合式函数/使用标题栏颜色'
 
 const 显示快捷键提示 = ref(false)
 type 主题模式类型 = '浅色' | '深色' | '跟随系统'
@@ -22,6 +23,9 @@ const 深色模式 = computed(() => {
   if (主题模式.value === '跟随系统') return 系统深色.value
   return false
 })
+
+// 无边框窗口：系统按钮符号色跟随获取路径主题明暗
+应用标题栏符号色(() => 由深色模式取符号色(深色模式.value))
 
 function 设置主题模式(模式: 主题模式类型) {
   主题模式.value = 模式
@@ -167,12 +171,22 @@ function 打开手册() {
   overflow: hidden; /* 防止整个页面滚动 */
 }
 
-/* 顶部固定高度，不收缩 */
+/* 顶部固定高度，直接到窗口顶；右侧留出系统按钮宽度，避免与右上角按钮重合 */
 .布局-顶部 {
   flex-shrink: 0;
-  padding: 12px 16px;
+  height: 32px;
+  box-sizing: border-box;
+  padding: 0 154px 0 12px;
   background: #f5f5f5;
   border-bottom: 1px solid #d0d0d0;
+  -webkit-app-region: drag; /* 顶栏空白处可拖动窗口 */
+}
+
+/* 顶栏内的交互元素不参与拖拽 */
+.布局-顶部 button,
+.布局-顶部 a,
+.布局-顶部 .顶部-左侧 {
+  -webkit-app-region: no-drag;
 }
 
 .顶部-工具栏 {
@@ -181,6 +195,7 @@ function 打开手册() {
   justify-content: flex-end;
   gap: 12px;
   position: relative;
+  height: 100%;
 }
 
 .顶部-左侧 {
@@ -209,7 +224,13 @@ function 打开手册() {
 
 .工具栏图标按钮 {
   flex-shrink: 0;
-  padding: 4px 8px;
+  width: 32px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
   border: 1px solid #d0d0d0;
   border-radius: 6px;
   background: #fff;
@@ -235,7 +256,7 @@ function 打开手册() {
 
 .主题模式按钮 {
   width: 28px;
-  height: 26px;
+  height: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -262,7 +283,13 @@ function 打开手册() {
 
 .手册按钮 {
   flex-shrink: 0;
-  padding: 4px 10px;
+  width: 32px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
   border: 1px solid #d0d0d0;
   border-radius: 6px;
   background: #fff;
@@ -280,15 +307,20 @@ function 打开手册() {
 
 .重置布局按钮 {
   flex-shrink: 0;
-  padding: 4px 12px;
+  width: 32px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
   border: 1px solid #d0d0d0;
   border-radius: 6px;
   background: #fff;
   color: #555;
-  font-size: 12px;
+  font-size: 13px;
   cursor: pointer;
   transition: all 0.15s;
-  white-space: nowrap;
 }
 .重置布局按钮:hover {
   background: #f0f0f0;

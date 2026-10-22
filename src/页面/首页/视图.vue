@@ -1,5 +1,7 @@
 <template>
   <div class="首页" :class="{ 浅色模式: !深色模式 }" @click="关闭右键菜单">
+    <!-- 顶部拖拽条：无边框窗口拖动区 -->
+    <div class="首页拖拽条"></div>
     <!-- 主内容区：按钮 -->
     <div class="按钮容器">
       <button class="按钮" @click="跳转到启动" @contextmenu.prevent="打开右键菜单($event, '/Q1')">启动</button>
@@ -38,6 +40,7 @@ import GongZuoKongJianGuanLiTanChuang from './组件/工作空间管理弹窗.vu
 import FuZhiGongZuoKongJianTanChuang from './组件/复制工作空间弹窗.vue'
 import QueRenTanChuang from './组件/确认弹窗.vue'
 import { 使用全局快捷键 } from '@/组合式函数/使用全局快捷键'
+import { 应用标题栏符号色, 由深色模式取符号色 } from '@/组合式函数/使用标题栏颜色'
 
 const router = useRouter()
 
@@ -66,6 +69,9 @@ const 深色模式 = ref(true)
 const 确认弹窗显示 = ref(false)
 const 确认弹窗内容 = ref('')
 const 确认弹窗回调 = ref<() => void>(() => {})
+
+// 无边框窗口：系统按钮符号色跟随明暗模式
+应用标题栏符号色(() => 由深色模式取符号色(深色模式.value))
 
 // ==================== 生命周期 ====================
 
@@ -170,6 +176,7 @@ function 执行打开手册() {
 
 <style scoped>
 .首页 {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,6 +186,17 @@ function 执行打开手册() {
   margin: 0;
   padding: 0;
   transition: background 0.3s;
+}
+
+/* 顶部拖拽条：无边框窗口拖动区，透明覆盖顶部 */
+.首页拖拽条 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  -webkit-app-region: drag;
+  z-index: 100;
 }
 
 .首页.浅色模式 {

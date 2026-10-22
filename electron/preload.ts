@@ -172,6 +172,9 @@ contextBridge.exposeInMainWorld('electronAPI', {
   /** 创建独立窗口加载指定路由 */
   创建独立窗口: (路由路径: string) => ipcRenderer.invoke(IPC通道.创建独立窗口, 路由路径),
 
+  /** 运行时设置无边框窗口标题栏叠层（系统按钮符号色/背景色） */
+  窗口设置标题栏叠层: (参数: { symbolColor?: string; color?: string }) => ipcRenderer.invoke('窗口-设置标题栏叠层', 参数),
+
   // ==================== 系统操作 ====================
 
   /** 在资源管理器中打开指定文件夹 */

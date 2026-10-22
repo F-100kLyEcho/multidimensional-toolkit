@@ -9,9 +9,15 @@ import { 使用主题 } from '@/页面/启动/组合式函数/使用主题'
 import { 使用侧边栏菜单仓库 } from '@/页面/启动/仓库/侧边栏菜单仓库'
 import { 使用菜单仓库 } from '@/页面/启动/仓库/菜单仓库'
 import { 使用全局快捷键 } from '@/组合式函数/使用全局快捷键'
+import { 使用主题仓库 } from '@/页面/启动/仓库/主题仓库'
+import { 应用标题栏符号色, 由背景色值取符号色 } from '@/组合式函数/使用标题栏颜色'
 
 const 主题 = 使用主题()
 主题.应用主题()
+
+// 无边框窗口：系统按钮符号色跟随启动页（含图标库）主题明暗
+const 主题仓库 = 使用主题仓库()
+应用标题栏符号色(() => 由背景色值取符号色(主题仓库.背景色值))
 
 const 菜单仓库 = 使用侧边栏菜单仓库()
 const 启动菜单仓库 = 使用菜单仓库()
@@ -40,6 +46,8 @@ const 是图标库 = computed(() => 路由.path === '/图标库管理')
 
 <template>
   <div class="主布局">
+    <!-- 顶部透明拖拽条：无边框窗口拖动区，同时为右上角系统按钮预留高度 -->
+    <div class="顶部拖拽条"></div>
     <template v-if="启动菜单仓库.数据已加载">
       <!-- 毛玻璃层：覆盖图标区 + 菜单容器，单次渲染 backdrop-filter，消除接缝 -->
       <div v-show="显示毛玻璃" class="毛玻璃层" :class="{ '毛玻璃层--紧凑': 紧凑模式 && !是图标库, '毛玻璃层--展开': 菜单仓库.当前组件 && !紧凑模式, '毛玻璃层--仅图标区': 是图标库 && !紧凑模式 }"></div>
@@ -77,6 +85,17 @@ const 是图标库 = computed(() => 路由.path === '/图标库管理')
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+
+/* 顶部拖拽条：无边框窗口的拖动区域 */
+.顶部拖拽条 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 32px;
+  -webkit-app-region: drag;
+  z-index: 100;
 }
 
 /* 毛玻璃层：绝对定位，覆盖图标区 + 菜单容器，单次渲染 backdrop-filter，消除接缝 */
@@ -139,6 +158,7 @@ const 是图标库 = computed(() => 路由.path === '/图标库管理')
   overflow-y: auto;
   scrollbar-gutter: stable;
   height: 100%;
+  padding-top: 32px; /* 让位给顶部拖拽带 */
   background: transparent;
 }
 
@@ -162,5 +182,6 @@ const 是图标库 = computed(() => 路由.path === '/图标库管理')
   flex: 1;
   overflow-y: auto;
   position: relative;
+  padding-top: 32px; /* 让位给顶部拖拽带与系统按钮 */
 }
 </style>
