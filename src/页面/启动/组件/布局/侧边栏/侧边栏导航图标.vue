@@ -117,8 +117,8 @@ function 关闭快捷键提示() {
         <div v-if="当前路由.path === '/图标库管理'" class="提示行"><kbd>B</kbd><span>进入/退出批量模式</span></div>
         <div class="提示行"><kbd>F1</kbd><span>使用手册</span></div>
         <div class="提示行"><kbd>Home</kbd><span>返回首页</span></div>
-        <div class="提示行"><kbd>1/2/3</kbd><span>页面导航</span></div>
-        <div class="提示行"><kbd>Ctrl+1/2/3</kbd><span>新窗口打开</span></div>
+        <div class="提示行"><kbd>1/2/3/4</kbd><span>页面导航</span></div>
+        <div class="提示行"><kbd>Ctrl+1/2/3/4</kbd><span>新窗口打开</span></div>
       </div>
     </div>
   </Teleport>

@@ -6,6 +6,7 @@
     <div class="按钮容器">
       <button class="按钮" @click="跳转到启动" @contextmenu.prevent="打开右键菜单($event, '/Q1')">启动</button>
       <button class="按钮" @click="跳转到图标库" @contextmenu.prevent="打开右键菜单($event, '/图标库管理')">图标库</button>
+      <button class="按钮" @click="跳转到记忆泡" @contextmenu.prevent="打开右键菜单($event, '/记忆泡')">记忆</button>
       <button class="按钮" @click="跳转到获取路径" @contextmenu.prevent="打开右键菜单($event, '/H1')">获取路径</button>
     </div>
 
@@ -91,6 +92,10 @@ function 跳转到启动() {
 
 function 跳转到图标库() {
   router.push('/图标库管理')
+}
+
+function 跳转到记忆泡() {
+  router.push('/记忆泡')
 }
 
 function 跳转到获取路径() {

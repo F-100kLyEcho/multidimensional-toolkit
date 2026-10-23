@@ -10,7 +10,8 @@ interface 页面快捷键映射 {
 const 页面路由映射: Record<string, string> = {
   '1': '/Q1',
   '2': '/图标库管理',
-  '3': '/H1',
+  '3': '/记忆泡',
+  '4': '/H1',
 }
 
 const 路由到手册id: Record<string, string> = {

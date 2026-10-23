@@ -111,8 +111,8 @@ function 打开手册() {
           <div class="提示行"><kbd>E</kbd><span>重置布局</span></div>
           <div class="提示行"><kbd>F1</kbd><span>使用手册</span></div>
           <div class="提示行"><kbd>Home</kbd><span>返回首页</span></div>
-          <div class="提示行"><kbd>1/2/3</kbd><span>页面导航</span></div>
-          <div class="提示行"><kbd>Ctrl+1/2/3</kbd><span>新窗口打开</span></div>
+          <div class="提示行"><kbd>1/2/3/4</kbd><span>页面导航</span></div>
+          <div class="提示行"><kbd>Ctrl+1/2/3/4</kbd><span>新窗口打开</span></div>
         </div>
       </div>
     </Teleport>
