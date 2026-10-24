@@ -4,6 +4,7 @@ import './样式/main.css'
 import BubbleStream from './组件/气泡流.vue'
 import MemoryInput from './组件/输入框.vue'
 import { 使用多维记忆仓库 } from './仓库/多维记忆仓库'
+import { 使用全局快捷键 } from '@/组合式函数/使用全局快捷键'
 
 const 仓库 = 使用多维记忆仓库()
 
@@ -14,6 +15,8 @@ function 切换皮肤() {
   深色.value = !深色.value
   localStorage.setItem('多维记忆_深色', String(深色.value))
 }
+
+使用全局快捷键()
 </script>
 
 <template>
