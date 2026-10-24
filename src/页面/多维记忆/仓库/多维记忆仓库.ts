@@ -1,15 +1,15 @@
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
-/** 记忆泡数据（第一版：仅 id + 内容 + 创建时间） */
-export interface 记忆泡数据 {
+/** 多维记忆数据（第一版：仅 id + 内容 + 创建时间） */
+export interface 多维记忆数据 {
   id: string
   内容: string
   创建时间: number
 }
 
 /** 生成示例数据（第一版：外观演示，暂不落盘） */
-function 生成示例(): 记忆泡数据[] {
+function 生成示例(): 多维记忆数据[] {
   const 现在 = Date.now()
   return [
     { id: '示例1', 内容: '把日常重复操作压缩到最少步骤。', 创建时间: 现在 - 1000 * 60 * 60 * 25 },
@@ -18,10 +18,10 @@ function 生成示例(): 记忆泡数据[] {
   ]
 }
 
-export const 使用记忆泡仓库 = defineStore('记忆泡仓库', () => {
-  const 列表 = ref<记忆泡数据[]>(生成示例())
+export const 使用多维记忆仓库 = defineStore('多维记忆仓库', () => {
+  const 列表 = ref<多维记忆数据[]>(生成示例())
 
-  /** 新增一条记忆泡（第一版仅内存，落盘在后续版本接入） */
+  /** 新增一条多维记忆（第一版仅内存，落盘在后续版本接入） */
   function 发送(内容: string) {
     const 文本 = 内容.trim()
     if (!文本) return

@@ -3,24 +3,24 @@ import { ref } from 'vue'
 import './样式/main.css'
 import BubbleStream from './组件/气泡流.vue'
 import MemoryInput from './组件/输入框.vue'
-import { 使用记忆泡仓库 } from './仓库/记忆泡仓库'
+import { 使用多维记忆仓库 } from './仓库/多维记忆仓库'
 
-const 仓库 = 使用记忆泡仓库()
+const 仓库 = 使用多维记忆仓库()
 
 /** 皮肤：默认深色（黑），浅色即白 */
-const 深色 = ref(localStorage.getItem('记忆泡_深色') !== 'false')
+const 深色 = ref(localStorage.getItem('多维记忆_深色') !== 'false')
 
 function 切换皮肤() {
   深色.value = !深色.value
-  localStorage.setItem('记忆泡_深色', String(深色.value))
+  localStorage.setItem('多维记忆_深色', String(深色.value))
 }
 </script>
 
 <template>
-  <div class="记忆泡" :class="{ 浅色: !深色 }">
+  <div class="多维记忆" :class="{ 浅色: !深色 }">
     <!-- 顶栏：直接到窗口顶，自身作为无边框拖拽区，右侧避让系统按钮 -->
     <header class="记忆泡-顶栏">
-      <span class="记忆泡-标题">记忆泡</span>
+      <span class="记忆泡-标题">多维记忆</span>
       <button class="记忆泡-皮肤切换" @click="切换皮肤">{{ 深色 ? '浅色' : '深色' }}</button>
     </header>
 
@@ -37,7 +37,7 @@ function 切换皮肤() {
 <style scoped>
 .记忆泡-顶栏 {
   flex-shrink: 0;
-  height: 44px;
+  height: 32px;
   display: flex;
   align-items: center;
   padding: 0 154px 0 16px;
