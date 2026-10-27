@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 import './样式/main.css'
 import BubbleStream from './组件/气泡流.vue'
 import MemoryInput from './组件/输入框.vue'
-import { 使用多维记忆仓库 } from './仓库/多维记忆仓库'
+import { 使用多维记忆仓库 } from '../仓库/多维记忆仓库'
 import { 使用全局快捷键 } from '@/组合式函数/使用全局快捷键'
 
+const router = useRouter()
 const 仓库 = 使用多维记忆仓库()
 
 /** 皮肤：默认深色（黑），浅色即白 */
@@ -23,7 +25,7 @@ function 切换皮肤() {
   <div class="多维记忆" :class="{ 浅色: !深色 }">
     <!-- 顶栏：直接到窗口顶，自身作为无边框拖拽区，右侧避让系统按钮 -->
     <header class="记忆泡-顶栏">
-      <span class="记忆泡-标题">多维记忆</span>
+      <span class="记忆泡-标题" @click="router.push('/多维记忆')">多维记忆</span>
       <button class="记忆泡-皮肤切换" @click="切换皮肤">{{ 深色 ? '浅色' : '深色' }}</button>
     </header>
 
@@ -56,6 +58,8 @@ function 切换皮肤() {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.5px;
+  cursor: pointer;
+  -webkit-app-region: no-drag;
 }
 
 .记忆泡-皮肤切换 {

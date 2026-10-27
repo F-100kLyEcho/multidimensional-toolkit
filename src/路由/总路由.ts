@@ -31,7 +31,13 @@ const 总路由 = createRouter({
       path: '/多维记忆',
       name: '多维记忆',
       meta: { title: '多维记忆 - 多维工具箱' },
-      component: () => import('@/页面/多维记忆/视图.vue'),
+      component: () => import('@/页面/多维记忆/记忆首页/视图.vue'),
+    },
+    {
+      path: '/多维记忆/泡',
+      name: '记忆泡',
+      meta: { title: '记忆泡 - 多维工具箱' },
+      component: () => import('@/页面/多维记忆/记忆泡/视图.vue'),
     },
     {
       path: '/manual/:id',
