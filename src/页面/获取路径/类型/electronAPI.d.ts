@@ -214,7 +214,7 @@ interface ElectronAPI {
   保存合并配置: (配置: 合并配置) => Promise<void>
 
   // 窗口管理
-  创建独立窗口: (路由路径: string) => Promise<保存排除规则响应>
+  创建独立窗口: (路由路径: string, 选项?: { 宽?: number; 高?: number; 最小宽?: number; 最小高?: number; 全屏?: boolean; 可缩放?: boolean; 无边框?: boolean }) => Promise<保存排除规则响应>
 
   // 系统操作
   打开文件夹: (路径: string, 项目路径?: string) => Promise<保存排除规则响应>

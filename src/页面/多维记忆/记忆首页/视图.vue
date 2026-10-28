@@ -2,17 +2,11 @@
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 import '../记忆泡/样式/main.css'
+import TopBar from '../组件/顶栏.vue'
 import { 使用全局快捷键 } from '@/组合式函数/使用全局快捷键'
+import { 深色 } from '../组合式函数/使用皮肤'
 
 const router = useRouter()
-
-/** 皮肤：与记忆泡共用同一个键，保持两页皮肤一致 */
-const 深色 = ref(localStorage.getItem('多维记忆_深色') !== 'false')
-
-function 切换皮肤() {
-  深色.value = !深色.value
-  localStorage.setItem('多维记忆_深色', String(深色.value))
-}
 
 /** 悬浮加号 / 开始记录 共用菜单：选择记录类型 */
 const 菜单显示 = ref(false)
@@ -64,10 +58,7 @@ const 概念 = [
 
 <template>
   <div class="多维记忆 记忆首页" :class="{ 浅色: !深色 }">
-    <header class="记忆泡-顶栏">
-      <span class="记忆泡-标题">多维记忆</span>
-      <button class="记忆泡-皮肤切换" @click="切换皮肤">{{ 深色 ? '浅色' : '深色' }}</button>
-    </header>
+    <TopBar @标题点击="router.push('/多维记忆')" />
 
     <main class="记忆首页-主体">
       <section class="记忆首页-引导">
@@ -83,7 +74,7 @@ const 概念 = [
       </section>
 
       <section class="记忆首页-操作">
-        <button class="记忆首页-开始按钮" @click="打开菜单('开始', $event)">开始记录</button>
+        <button class="记忆首页-开始按钮" @click="router.push('/多维记忆/泡')">开始记录</button>
       </section>
     </main>
 
@@ -109,42 +100,6 @@ const 概念 = [
   background: var(--记忆泡-背景);
   color: var(--记忆泡-文字);
   font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
-}
-
-.记忆泡-顶栏 {
-  flex-shrink: 0;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  padding: 0 154px 0 16px;
-  -webkit-app-region: drag;
-  border-bottom: 1px solid var(--记忆泡-气泡边框);
-}
-
-.记忆泡-顶栏 button {
-  -webkit-app-region: no-drag;
-}
-
-.记忆泡-标题 {
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-}
-
-.记忆泡-皮肤切换 {
-  margin-left: auto;
-  padding: 5px 12px;
-  border: 1px solid var(--记忆泡-气泡边框);
-  border-radius: 6px;
-  background: transparent;
-  color: var(--记忆泡-弱文字);
-  font-size: 12px;
-  cursor: pointer;
-  transition: color 0.15s;
-}
-
-.记忆泡-皮肤切换:hover {
-  color: var(--记忆泡-文字);
 }
 
 .记忆首页-主体 {

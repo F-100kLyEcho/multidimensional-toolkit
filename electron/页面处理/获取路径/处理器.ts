@@ -413,23 +413,37 @@ export function 注册获取路径处理器(): void {
   // ==================== 窗口管理 ====================
 
   // 创建独立窗口
-  ipcMain.handle(IPC通道.创建独立窗口, async (_事件, 路由路径: string): Promise<{ 成功: boolean; 错误信息?: string }> => {
+  ipcMain.handle(IPC通道.创建独立窗口, async (_事件, 路由路径: string, 选项?: { 宽?: number; 高?: number; 最小宽?: number; 最小高?: number; 全屏?: boolean; 可缩放?: boolean; 无边框?: boolean }): Promise<{ 成功: boolean; 错误信息?: string }> => {
     try {
       console.log('[调试-后端] 创建独立窗口 收到路由路径:', JSON.stringify(路由路径), '类型:', typeof 路由路径)
       const isDev = process.env.VITE_DEV_SERVER_URL
-      const 子窗口 = new BrowserWindow({
-        width: 1000,
-        height: 700,
-        maximizable: true,
-        resizable: true,
+      const 窗口配置: Electron.BrowserWindowConstructorOptions = {
+        width: 选项?.宽 ?? 1000,
+        height: 选项?.高 ?? 700,
+        minWidth: 选项?.最小宽,
+        minHeight: 选项?.最小高,
+        maximizable: 选项?.可缩放 ?? true,
+        resizable: 选项?.可缩放 ?? true,
         webPreferences: {
           preload: path.join(__dirname, 'preload.js'),
           contextIsolation: true,
           nodeIntegration: false,
         },
-      })
+      }
+      if (选项?.无边框) {
+        窗口配置.titleBarStyle = 'hidden'
+        窗口配置.titleBarOverlay = { color: '#00000000', symbolColor: '#e0e0e0', height: 32 }
+      }
+      const 子窗口 = new BrowserWindow(窗口配置)
 
-      子窗口.maximize()
+      if (选项?.全屏 ?? true) 子窗口.maximize()
+
+      子窗口.webContents.on('before-input-event', (_e, input) => {
+        if (input.key === 'F12') {
+          _e.preventDefault()
+          子窗口.webContents.toggleDevTools()
+        }
+      })
 
       if (isDev) {
         子窗口.loadURL(process.env.VITE_DEV_SERVER_URL!)

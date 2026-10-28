@@ -40,6 +40,12 @@ const 总路由 = createRouter({
       component: () => import('@/页面/多维记忆/记忆泡/视图.vue'),
     },
     {
+      path: '/多维记忆/新建',
+      name: '新建记忆',
+      meta: { title: '新建记忆 - 多维工具箱' },
+      component: () => import('@/页面/多维记忆/新建记忆/视图.vue'),
+    },
+    {
       path: '/manual/:id',
       name: '手册',
       meta: { title: '使用手册 - 多维工具箱' },
